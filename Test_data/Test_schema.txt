@@ -1,0 +1,68 @@
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/v9lXvw
+-- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+
+
+CREATE TABLE "Paintings" (
+    "Object_id" INT   NOT NULL,
+    "Object_type" VARCHAR   NOT NULL,
+    "Title" VARCHAR   NOT NULL,
+    "Date_start" VARCHAR   NOT NULL,
+    "Date_finish" VARCHAR   NOT NULL,
+    "Medium" VARCHAR   NOT NULL,
+    "Classification" VARCHAR   NOT NULL,
+    "Met_link" VARCHAR   NOT NULL,
+    "Artist_id" INT   NOT NULL,
+    "Dept_id" INT   NOT NULL,
+    CONSTRAINT "pk_Paintings" PRIMARY KEY (
+        "Object_id"
+     )
+);
+
+CREATE TABLE "Paintings_Colors" (
+    "Object_id" INT   NOT NULL,
+    "Hex" VARCHAR   NOT NULL,
+    "Color_Name" VARCHAR   NOT NULL,
+    "Size" INT   NOT NULL
+);
+
+CREATE TABLE "Colors_Table" (
+    "Color_Name" VARCHAR   NOT NULL,
+    "Group" VARCHAR   NOT NULL,
+    CONSTRAINT "pk_Colors_Table" PRIMARY KEY (
+        "Color_Name"
+     )
+);
+
+CREATE TABLE "Artists" (
+    "Surname" VARCHAR   NOT NULL,
+    "First_name" VARCHAR   NOT NULL,
+    "Fill_name" VARCHAR   NOT NULL,
+    "Birth_date" VARCHAR   NOT NULL,
+    "Death_date" VARCHAR   NOT NULL,
+    "Artist_id" INT   NOT NULL,
+    CONSTRAINT "pk_Artists" PRIMARY KEY (
+        "Artist_id"
+     )
+);
+
+CREATE TABLE "Department_Table" (
+    "Dept_name" VARCHAR   NOT NULL,
+    "Dept_id" INT   NOT NULL,
+    CONSTRAINT "pk_Department_Table" PRIMARY KEY (
+        "Dept_id"
+     )
+);
+
+ALTER TABLE "Paintings" ADD CONSTRAINT "fk_Paintings_Artist_id" FOREIGN KEY("Artist_id")
+REFERENCES "Artists" ("Artist_id");
+
+ALTER TABLE "Paintings" ADD CONSTRAINT "fk_Paintings_Dept_id" FOREIGN KEY("Dept_id")
+REFERENCES "Department_Table" ("Dept_id");
+
+ALTER TABLE "Paintings_Colors" ADD CONSTRAINT "fk_Paintings_Colors_Object_id" FOREIGN KEY("Object_id")
+REFERENCES "Paintings" ("Object_id");
+
+ALTER TABLE "Paintings_Colors" ADD CONSTRAINT "fk_Paintings_Colors_Color_Name" FOREIGN KEY("Color_Name")
+REFERENCES "Colors_Table" ("Color_Name");
+
