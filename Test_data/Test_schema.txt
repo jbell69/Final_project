@@ -23,7 +23,7 @@ CREATE TABLE "Paintings_Colors" (
     "Object_id" INT   NOT NULL,
     "Hex" VARCHAR   NOT NULL,
     "Color_Name" VARCHAR   NOT NULL,
-    "Size" INT   NOT NULL
+    "Size" FLOAT   NOT NULL
 );
 
 CREATE TABLE "Colors_Table" (
@@ -41,6 +41,8 @@ CREATE TABLE "Artists" (
     "Birth_date" VARCHAR   NOT NULL,
     "Death_date" VARCHAR   NOT NULL,
     "Artist_id" INT   NOT NULL,
+    "image" VARCHAR   NOT NULL,
+    "Biography" VARCHAR   NOT NULL,
     CONSTRAINT "pk_Artists" PRIMARY KEY (
         "Artist_id"
      )
