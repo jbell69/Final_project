@@ -48,7 +48,7 @@ CREATE TABLE "Artists" (
      )
 );
 
-CREATE TABLE "Department_Table" (
+CREATE TABLE "Departments" (
     "Dept_name" VARCHAR   NOT NULL,
     "Dept_id" INT   NOT NULL,
     CONSTRAINT "pk_Department_Table" PRIMARY KEY (

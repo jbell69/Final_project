@@ -1,24 +1,70 @@
+/*Search Page Color Options*/
 .color_select{
     display:  inline-block;
-    min-height: 30px; 
+    min-height: 30px;
     min-width: 30px;
     padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
-
 #pink{
     background-color: pink;
 }
-
 #red{
     background-color: red;
 }
-
 #orange{
     background-color: orange;
 }
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+#white{
+    background-color: white;
+}
+#grey{
+    background-color: grey;
+}
+#black{
+    background-color: black;
+}
+
+/*Main/Shared Assets*/
 
 body{
     overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+.brand-color{
+    background-color: rgb(235,0,41);
+}
+
+.brand-logo{
+    height: 50px;
+    width:auto;
+    padding: 0px 10px 0px 30px;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: .5rem;
+}
+
+.header-logo{
+    height: 50px;
+    width: auto;
 }
 
 .navbar .nav-link {
@@ -41,3 +87,24 @@ hr {
     border-style: inset;
     border-width: 1px;
   } 
+
+#paintingArtist .aboutPaintingtoggler {
+    background-color: rgb(196, 189, 189);
+}
+#paintingArtist .aboutArtisttoggler {
+  background-color: rgb(236, 218, 218);
+}
+#paintingArtist .aboutArtisttoggler:hover {
+  background-color: rgb(100, 98, 98);
+  color: white;
+}
+#artistPainting .aboutPaintingtoggler {
+  background-color:rgb(236, 218, 218);
+}
+#artistPainting .aboutArtisttoggler {
+background-color: rgb(196, 189, 189);
+}
+#artistPainting .aboutPaintingtoggler:hover {
+background-color: rgb(100, 98, 98);
+color: white;
+}
