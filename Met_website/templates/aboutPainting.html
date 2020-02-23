@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
     <title>Met Explorer</title>
 
 </head>
@@ -43,7 +43,58 @@
         </div>
     </nav>
 
+    <!-- Toggler between Painting and Artist info -->
+    <section id="paintingArtist">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-sm-6">
+                    <div class="aboutPaintingtoggler py-3 border rounded-bottom text-center">About the Painting</div>
+                </div>
+                <a class="col-sm-6" href="aboutArtist.html">
+                    <div class="aboutArtisttoggler py-3 border rounded-bottom text-center">About the Artist</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <div class="container">
+        <h3 class="mt-5">About the Painting</h3>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <div>
+                    <img src="img/met_front.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Painting XXXXXXXX</h4>
+                <h4 class="text-muted mb-4">Medium, year</h4>
+                <h4>Artist XXXXXXXX</h4>
+                <h4 class="text-muted mb-5">year - year</h4>
+                <h4>Color Palette (Top 10 Colors)</h4>
+                <img src="img/met_front.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h3 class="text-muted mt-5">Where to See It</h3>
+        </div>
+        <div class="row mt-3">
+            <p>Painting XXXXXXX is located in the XXXXXXXXX department</p>
+        </div>
+        <div class="row my-4">
+            <img src="img/met_front.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <!-- <div class="container">
         <h3 class="mt-5">About the Artist</h3>
         <div class="row my-5">
             <div class="col-md-6">
@@ -81,7 +132,7 @@
                 <img src="img/2X2_color_palette.png" alt="" class="img-fluid">
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -96,6 +147,8 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    <script type="text/javascript" src="logic.js"></script>
 
     <script>
         // Get the current year for the copyright
