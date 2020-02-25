@@ -72,7 +72,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    <hr>
 
     <div class="container">
         <div class="row">
@@ -117,9 +117,9 @@
         var card_body = create_card.append("div").attr("class", "card-body");
 
         //card_body.append("a").attr("href", "/aboutPaintings?&id="+ function(painting){return painting.Object_id})
-        card_body.append("img").attr("src", function(painting){return(painting.Image)}).attr("class", "img-thumbnail").attr("style", "object-fit:cover; height:200px; width:100%")
+        card_body.append("a").attr("href", function(painting){return "/aboutPainting?&id="+ painting.Object_id}).html(function(painting){return( "<img src='"+ painting.Image+"' class='img-thumbnail' style='object-fit:cover; height:200px; width:100%'>")});
         card_body.append("h6").attr("class", "card-title").text(function(painting) {return painting.Title});
-        card_body.append("p").attr("class", "card-text").html(function(painting){return painting.Artist_id + "<br>" + painting.Date_finish})
+        card_body.append("p").attr("class", "card-text").html(function(painting){return painting.Artist_Name + "<br>" + painting.Date_finish})
         create_card.append("h3").attr("class", "card-footer text-right text-muted").text("50%")
         
 

@@ -12,34 +12,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <title>Met Explorer</title>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">MET Explorer</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="overview.html" class="nav-link">Overview</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="search.html" class="nav-link">Search the Collection</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="aboutUs.html" class="nav-link">About Us</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-sm navbar-dark align-content-center brand-color">
+        <a href="/" class="navbar-brand">
+            <img src="../static/img/Mona_logo.jpg" class="brand-logo">
+            <img src="../static/img/header_logo.png" class="header-logo">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/overview" class="nav-link">Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/search" class="nav-link">Search the Collection</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -47,7 +49,7 @@
     <section id="artistPainting">
         <div class="container">
             <div class="row no-gutters">
-                <a class="col-sm-6" href="aboutPainting.html">
+                <a class="col-sm-6" href="/aboutPainting?&={{ painting_refer }}">
                     <div class="aboutPaintingtoggler py-3 border rounded-bottom text-center">About the Painting</div>
                 </a>
                 <div class="col-sm-6">
@@ -110,6 +112,25 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+    {% block javascript %}
+
+    <script>
+        // load the objects like you would with a normal jinja template i.e. {{ object }}, but add | tojson
+        // pass it into the parse function. Example: results = JSON.parse({{ results | tojson }})
+        var artist_results = JSON.parse({{ artist_results| tojson }}); 
+        var artist_info = artist_results[0]
+        console.log(artist_info)
+
+        var painting_results = JSON.parse({{ painting_results| tojson }}); 
+        console.log(len(painting_results))
+        console.log(painting_results[0])
+
+    </script>
+    
+    {% endblock %}
+
+
 
     <script>
         // Get the current year for the copyright
