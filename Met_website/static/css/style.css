@@ -62,20 +62,14 @@ body{
     grid-gap: .5rem;
 }
 
+.color-block{
+    width:100px;
+    height:100px;
+}
+
 .header-logo{
     height: 50px;
     width: auto;
-}
-
-.navbar .nav-link {
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-}
-
-.navbar .navbar-item.active {
-    border-left: #444 3px solid;
 }
 
 hr { 
@@ -87,6 +81,17 @@ hr {
     border-style: inset;
     border-width: 1px;
   } 
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .navbar-item.active {
+    border-left: #444 3px solid;
+}
 
 #paintingArtist .aboutPaintingtoggler {
     background-color: rgb(196, 189, 189);
@@ -107,4 +112,14 @@ background-color: rgb(196, 189, 189);
 #artistPainting .aboutPaintingtoggler:hover {
 background-color: rgb(100, 98, 98);
 color: white;
+}
+
+.palette-holder{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.color-block{
+    width: 75px;
+    height: 75px;
 }
