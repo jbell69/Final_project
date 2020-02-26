@@ -1,0 +1,101 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .navbar-item.active {
+    border-left: #444 3px solid;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  #paintingArtist .aboutPaintingtoggler {
+      background-color: rgb(196, 189, 189);
+  }
+
+  #paintingArtist .aboutArtisttoggler {
+    background-color: rgb(236, 218, 218);
+}
+
+#paintingArtist .aboutArtisttoggler:hover {
+    background-color: rgb(100, 98, 98);
+    color: white;
+}
+
+#artistPainting .aboutPaintingtoggler {
+    background-color:rgb(236, 218, 218);
+}
+
+#artistPainting .aboutArtisttoggler {
+  background-color: rgb(196, 189, 189);
+}
+
+#artistPainting .aboutPaintingtoggler:hover {
+  background-color: rgb(100, 98, 98);
+  color: white;
+}
+
+.color_select{
+    display:  inline-block;
+    min-height: 30px; 
+    min-width: 30px;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#pink{
+    background-color: pink;
+
+}
+
+#red{
+    background-color: red;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#white{
+    background-color: white;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#black{
+    background-color: black;
+}
