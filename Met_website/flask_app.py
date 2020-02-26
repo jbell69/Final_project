@@ -76,10 +76,9 @@ def homepage():
 def searchpage():
     return render_template("search.html")
 
-@app.route("/aboutUs")
+@app.route("/about")
 def about():
     return render_template("aboutUs.html")
-
 
 #################################################
 # Flask Routes - Queries 
@@ -197,7 +196,7 @@ def artist():
         session = Session(engine)
 
         #return the artist's information 
-        results = session.query(Artists.Full_name, Artists.Birth_date, Artists.Death_date).\
+        results = session.query(Artists.Full_name, Artists.Birth_date, Artists.Death_date, Artists.Biography, Artists.Image_link).\
             filter(Artists.Artist_id == Artist_id).all()
    
         paintings = session.query(Paintings.Object_id, Paintings.Met_link, Paintings.Title).\
@@ -220,23 +219,71 @@ def artist():
         session.close()
 
         artist_info = []
-        for Full_name, Birth_date, Death_date in results:
+        for Full_name, Birth_date, Death_date, Biography, Image_link in results:
             result_dict = {}
             result_dict["Artist_Name"] = Full_name
             result_dict["Birth_date"] = Birth_date
             result_dict["Death_date"] = Death_date
-            #result_dict["Biography"] = Biography
-            #result_dict["Image"] = Image_link
+            result_dict["Biography"] = Biography
+            result_dict["Image"] = Image_link
             artist_info.append(result_dict)
         
         artist_data = json.dumps(artist_info)
-        #print(artist_data,file=sys.stderr)
+        print(artist_data,file=sys.stderr)
 
         painting_data = json.dumps(artist_collection)
         #print(painting_data,file=sys.stderr)
 
         return render_template('aboutArtist.html', artist_results = artist_data, painting_results = painting_data, painting_refer = Painting_referral)
 
+@app.route("/overview")
+def overview():
+
+    session = Session(engine)
+
+    paintings_summary = session.query(Paintings.Object_id, Paintings.Dept_id, Paintings.Medium, Artists.Full_name).\
+        join(Artists, Paintings.Artist_id == Artists.Artist_id).all()
+
+    colors_summary = session.query(Paintings_colors.Color_name, func.sum(Paintings_colors.Size)).group_by(Paintings_colors.Color_name).all()
+
+    color_groups = session.query(Colors.Group, func.sum(Paintings_colors)).join (Paintings_colors, Colors.Color_name == Paintings_colors.Color_name).\
+        group_by(Colors.Group).all()
+
+    session.close()
+
+    collection = []
+    for Object_id, Dept_id, Medium, Full_name in paintings_summary:
+        result_dict = {}
+        result_dict["Object_id"] = Object_id
+        result_dict["Dept_id"] = Dept_id
+        result_dict["Medium"] = Medium
+        result_dict["Artist_Name"] = Full_name
+        collection.append(result_dict)
+
+    main_data = json.dumps(collection)
+    #print(main_data,file=sys.stderr)
+
+    colors_sub = []
+    for Color_name, Size in colors_summary:
+        sub_dict = {}
+        sub_dict["Color_name"] = Color_name
+        sub_dict["Size"] = Size
+        color_sub.append(sub_dict)
+
+    sub_color_data = json.dumps(color_sub)
+    #print(sub_color_data,file=sys.stderr)
+
+    colors_group = []
+    for Group, Size in colors_summary:
+        group_dict = {}
+        group_dict["Color_group"] = Group
+        group_dict["Size"] = Size
+        color_group.append(group_dict)
+
+    group_color_data = json.dumps(color_group)
+    #print(group_color_data,file=sys.stderr)
+
+    return render_template('overview.html', met_summary = main_data, sub_colors = sub_color_data, group_color = group_color_data )
         
 if __name__ == "__main__":
     app.run(debug=True)
