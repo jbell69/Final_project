@@ -49,7 +49,7 @@
     <section id="artistPainting">
         <div class="container">
             <div class="row no-gutters">
-                <a class="col-sm-6" href="/aboutPainting?&={{ painting_refer }}">
+                <a class="col-sm-6 painting_link">
                     <div class="aboutPaintingtoggler py-3 border rounded-bottom text-center">About the Painting</div>
                 </a>
                 <div class="col-sm-6">
@@ -62,19 +62,9 @@
     <div class="container">
         <h3 class="mt-5">About the Artist</h3>
         <div class="row my-5">
-            <div class="col-md-6">
-                <div>
-                    <img src="img/artist.jpg" alt="" class="img-fluid">
-                </div>
+            <div class="col-md-6 artist-image">
             </div>
-            <div class="col-md-6">
-                <h4>Artist Name</h4>
-                <h4 class="text-muted mb-4">Born Year - Died Year</h4>
-                <h5>This is where the Wikipedia bio would go (or not go, if we didn’t find it. Then it would just be
-                    like placeholder text or we could invite user submissions to be given, reviewed and then updated
-                    into the database). Blah blah blah blah blah.
-                </h5>
-            </div>
+            <div class="col-md-6 artist-info"></div>
         </div>
 
         <hr>
@@ -84,20 +74,8 @@
         <div class="row">
             <h3 class="mt-5">Painting by This Artist</h3>
         </div>
-        <div class="row mt-3">
-            <p>This artist has 1 painting(s) in the Met’s collection.
-            </p>
-        </div>
-        <div class="row my-4">
-            <div class="col-md-4">
-                <img src="img/met_front.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-8">
-                <h5>Painting XXXXXXXX</h5>
-                <img src="img/2X2_color_palette.png" alt="" class="img-fluid">
-            </div>
-        </div>
-    </div>
+        <div class="row mt-3 painting-count"> </div>
+        <div class = "paintings"> </div>
 
 
 
@@ -117,14 +95,46 @@
 
     <script>
         // load the objects like you would with a normal jinja template i.e. {{ object }}, but add | tojson
-        // pass it into the parse function. Example: results = JSON.parse({{ results | tojson }})
         var artist_results = JSON.parse({{ artist_results| tojson }}); 
         var artist_info = artist_results[0]
         console.log(artist_info)
 
         var painting_results = JSON.parse({{ painting_results| tojson }}); 
-        console.log(len(painting_results))
-        console.log(painting_results[0])
+        console.log(painting_results)
+
+        //append artist link with id & painting referral
+        d3.select(".painting_link").attr("href", "/aboutPainting?&id="+ {{ painting_refer }})
+
+        //Populate page
+        
+        d3.select(".artist-image").append("img").attr("src", artist_info.Image).attr("class","img-fluid")
+        
+        var info_div = d3.select(".artist-info")
+        info_div.append("h4").text(artist_info.Artist_Name)
+        info_div.append("h4").attr("class", "text-muted mb-4").text(artist_info.Birth_date + " - " + artist_info.Death_date)
+        info_div.append("br")
+        info_div.append("h5").text("This is where the artist biography will go.") 
+ 
+        d3.select(".painting-count").append("p").text("This artist has " +  painting_results.length + " painting(s) in the Met");
+     
+        //append paintings
+        var painting_collection = d3.select(".paintings");
+
+        for (i = 0; i < painting_results.length; i++){
+
+            var painting_row = painting_collection.append("div").attr("class", "row my-4");
+            painting_row.append("div").attr("class", "col-md-4").append("a").attr("href", "/aboutPainting?&id=" + painting_results[i].Object_id).html("<img src='" + painting_results[i].Image + "' class='img-fluid'>")
+            
+            var detail_div = painting_row.append("div").attr("class", "col-md-8");
+            detail_div.append("h5").text(painting_results[i].Title);
+            var color_palette = detail_div.append("div").attr("class", "palette-holder palette-" + [i]); 
+
+            painting_results[i].Colors.forEach(createBlock);
+        }; 
+
+        function createBlock (color){
+            color_palette.append("div").attr("class", "color-block").attr("style", "background-color:"+color)
+        }
 
     </script>
     

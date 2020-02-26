@@ -52,7 +52,7 @@
                 <div class="col-sm-6">
                     <div class="aboutPaintingtoggler py-3 border rounded-bottom text-center">About the Painting</div>
                 </div>
-                <a class="col-sm-6" href="/aboutArtist?&id= {{ artist }}&referral= {{painting_refer}}">
+                <a class="col-sm-6 artist_link">
                     <div class="aboutArtisttoggler py-3 border rounded-bottom text-center">About the Artist</div>
                 </a>
             </div>
@@ -145,6 +145,10 @@
         var painting_info = JSresults[0]
         //console.log(painting_info.Artist_Name)
         
+        //append artist link with id & painting referral
+        d3.select(".artist_link").attr("href", "/aboutArtist?&id="+ painting_info.Artist_id + "&referral=" + painting_info.Object_id)
+
+        //Population page
         d3.select(".image-holder").append("img").attr("src", painting_info.Image).attr("class","img-fluid")
         
         var info_div = d3.select(".painting-info")
@@ -182,9 +186,9 @@
             case 11: dept_name = "Robert Lehman Collection"
             case 12: dept_name = "The Cloisters"
             case 13: dept_name = "Medieval Art"
-            case 14: dept_name = "Musical Instruments"
+            case 14: dept_name = "Musical Instruments"}
 
-        d3.select(".designation-text").append("h4").text(painting_info.Title + " is located in the "+ dept_name+" department.")
+        d3.select(".designation-text").append("h5").text(painting_info.Title + " is located in the "+ dept_name+" department.")
 
 
     </script>

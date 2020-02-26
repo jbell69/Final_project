@@ -75,16 +75,16 @@
                             data-toggle="dropdown">Pick a Color
                             <span class="caret"></span></button>
                         <ul class="dropdown-menu">
-                            <li><a href="/results?&color=pink">Pink</a></li>
-                            <li><a href="#">Red</a></li>
-                            <li><a href="#">Orange</a></li>
-                            <li><a href="#">Yellow</a></li>
-                            <li><a href="#">Green</a></li>
-                            <li><a href="#">Blue</a></li>
-                            <li><a href="#">Purple</a></li>
-                            <li><a href="#">White</a></li>
-                            <li><a href="#">Grey</a></li>
-                            <li><a href="#">Black</a></li>
+                            <li><a href="/results?&color=Pink">Pink</a></li>
+                            <li><a href="/results?&color=Red">Red</a></li>
+                            <li><a href="/results?&color=Orange">Orange</a></li>
+                            <li><a href="/results?&color=Yellow">Yellow</a></li>
+                            <li><a href="/results?&color=Green">Green</a></li>
+                            <li><a href="/results?&color=Blue">Blue</a></li>
+                            <li><a href="/results?&color=Purple">Purple</a></li>
+                            <li><a href="/results?&color=White">White</a></li>
+                            <li><a href="/results?&color=Grey">Grey</a></li>
+                            <li><a href="/results?&color=Black">Black</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,10 +92,10 @@
                 <div class="col-md-6 my-5">
                     <h3>Search for an Artist</h3>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Try Typing A Name...">
-                        <div class="input-group-append">
-                            <button class="btn btn-success">Search</button>
-                        </div>
+                        <form action="/aboutArtist" method="POST">
+                            <input type="text" name="artist">
+                            <input type="submit" value="Search">
+                        </form>
                     </div>
                 </div>
             </div>
