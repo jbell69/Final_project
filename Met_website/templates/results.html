@@ -121,7 +121,11 @@
         card_body.append("p").attr("class", "card-text").html(function(painting){return painting.Artist_Name + "<br>" + painting.Date_finish})
         create_card.append("h3").attr("class", "card-footer text-right text-muted").text(function(painting){return painting.Size +"%"})
         
-
+        var select_color = "{{ selected_color }}"
+        var color_lowercase = select_color.toLowerCase()
+        var active_color = "#"+ color_lowercase +""
+        console.log(active_color)
+        d3.select(active_color).attr("style", "height:50px; width:50px")
 
     </script>
     

@@ -121,7 +121,7 @@ def search():
     data = json.dumps(painting_results)
     #print(data,file=sys.stderr)
 
-    return render_template('results.html', results = data)
+    return render_template('results.html', results = data, selected_color = selected_color)
 
 @app.route("/aboutPainting", methods=["GET"])
 def painting():
