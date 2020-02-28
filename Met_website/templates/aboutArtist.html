@@ -63,6 +63,7 @@
         <h3 class="mt-5">About the Artist</h3>
         <div class="row my-5">
             <div class="col-md-6 artist-image">
+                
             </div>
             <div class="col-md-6 artist-info"></div>
         </div>
@@ -102,8 +103,10 @@
         var painting_results = JSON.parse({{ painting_results| tojson }}); 
         console.log(painting_results)
 
+        var painting_referal = "{{ painting_refer}}";
+
         //append artist link with id & painting referral
-        d3.select(".painting_link").attr("href", "/aboutPainting?&id="+ {{ painting_refer }})
+        d3.select(".painting_link").attr("href", "/aboutPainting?&id="+ painting_referal)
 
         //Populate page
         
@@ -113,7 +116,7 @@
         info_div.append("h4").text(artist_info.Artist_Name)
         info_div.append("h4").attr("class", "text-muted mb-4").text(artist_info.Birth_date + " - " + artist_info.Death_date)
         info_div.append("br")
-        info_div.append("h5").text("This is where the artist biography will go.") 
+        info_div.append("h5").text(artist_info.Biography) 
  
         d3.select(".painting-count").append("p").text("This artist has " +  painting_results.length + " painting(s) in the Met");
      

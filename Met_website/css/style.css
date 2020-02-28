@@ -1,16 +1,89 @@
+/*Search Page Color Options*/
+.color_select{
+    display:  inline-block;
+    min-height: 30px;
+    min-width: 30px;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#pink{
+    background-color: pink;
+}
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+#white{
+    background-color: white;
+}
+#grey{
+    background-color: grey;
+}
+#black{
+    background-color: black;
+}
+
+#brown{
+    background-color: saddlebrown;
+}
+
+/*Main/Shared Assets*/
+
 body{
     overflow-x: hidden;
+    background-color: whitesmoke;
 }
 
-.navbar .nav-link {
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+.brand-color{
+    background-color: rgb(235,0,41);
 }
 
-.navbar .navbar-item.active {
-    border-left: #444 3px solid;
+.brand-logo{
+    height: 50px;
+    width:auto;
+    padding: 0px 10px 0px 30px;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: .5rem;
+}
+
+.color-block{
+    width: 75px;
+    height: 75px;
+}
+
+.color_select:hover {
+    display:  inline-block;
+    min-height: 50px;
+    min-width: 50px;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.header-logo{
+    height: 50px;
+    width: auto;
 }
 
 hr { 
@@ -23,79 +96,64 @@ hr {
     border-width: 1px;
   } 
 
-  #paintingArtist .aboutPaintingtoggler {
-      background-color: rgb(196, 189, 189);
-  }
-
-  #paintingArtist .aboutArtisttoggler {
-    background-color: rgb(236, 218, 218);
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
+.navbar .navbar-item.active {
+    border-left: #444 3px solid;
+}
+
+#paintingArtist .aboutPaintingtoggler {
+    background-color: rgb(196, 189, 189);
+}
+#paintingArtist .aboutArtisttoggler {
+  background-color: rgb(236, 218, 218);
+}
 #paintingArtist .aboutArtisttoggler:hover {
-    background-color: rgb(100, 98, 98);
-    color: white;
-}
-
-#artistPainting .aboutPaintingtoggler {
-    background-color:rgb(236, 218, 218);
-}
-
-#artistPainting .aboutArtisttoggler {
-  background-color: rgb(196, 189, 189);
-}
-
-#artistPainting .aboutPaintingtoggler:hover {
   background-color: rgb(100, 98, 98);
   color: white;
 }
-
-.color_select{
-    display:  inline-block;
-    min-height: 30px; 
-    min-width: 30px;
-    padding: 0px 5px 0px 5px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+#artistPainting .aboutPaintingtoggler {
+  background-color:rgb(236, 218, 218);
+}
+#artistPainting .aboutArtisttoggler {
+background-color: rgb(196, 189, 189);
+}
+#artistPainting .aboutPaintingtoggler:hover {
+background-color: rgb(100, 98, 98);
+color: white;
 }
 
-#pink{
-    background-color: pink;
-
+.palette-holder{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
-#red{
-    background-color: red;
+.hex-container{
+    display:inline-grid;
+    grid-template-columns: auto;
 }
 
-#orange{
-    background-color: orange;
+table{
+    font-family: 'Questrial';
+    color: rgb(219, 219, 219);
+    font-size: 14px;
 }
 
-#yellow{
-    background-color: yellow;
+th{
+    background-color: rgb(184, 184, 184);
+    font-weight: bold;
 }
 
-#green{
-    background-color: green;
+tr{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
 }
 
-#blue{
-    background-color: blue;
-}
-
-#purple{
-    background-color: purple;
-}
-
-#white{
-    background-color: white;
-}
-
-#grey{
-    background-color: grey;
-}
-
-#black{
-    background-color: black;
+tr:nth-child(even){
+    background-color: rgb(247,236,181);
 }

@@ -1,4 +1,4 @@
-,Object_id,Object_type,Title,Date_start,Date_finis,Medium,Classification,Met_link,Artist_id,Dept_id
+Null,Object_id,Object_type,Title,Date_start,Date_finis,Medium,Classification,Met_link,Artist_id,Dept_id
 0,466,Painting,Plaque Portrait of Benjamin Franklin,1800,1883,Ivory,Paintings,https://images.metmuseum.org/CRDImages/ad/original/25582.jpg,0,0
 1,470,Painting,Plaque Portrait of Benjamin Franklin,1776,1883,Probably porcelain,Paintings,https://images.metmuseum.org/CRDImages/ad/original/25581.jpg,2,0
 3,472,Painting,Portrait of Benjamin Franklin,1776,1883,Panel,Paintings,https://images.metmuseum.org/CRDImages/ad/original/25595.jpg,2,0
@@ -38,8 +38,6 @@
 67,10084,Painting,Portrait of the Marquis de Lafayette,1850,1880,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/25684.jpg,5,0
 68,3970,Painting,Plaque of George Washington,1776,1830,Painted glass,Paintings,https://images.metmuseum.org/CRDImages/ad/original/25534.jpg,6,0
 69,12928,Painting,Liberty,1797,1800,Oil on glass,Paintings,https://images.metmuseum.org/CRDImages/ad/original/117995.jpg,319,0
-70,16743,Painting,The Temptation of Eros,1750,1775,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/VR 39.184.18 Ptg. 1 Ret.jpg,369,0
-71,16744,Painting,The Victory of Eros,1750,1775,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/VR 39.184.19 Ptg. Ret.jpg,369,0
 72,236111,Painting,Nuestra Señora de los Desamparados (Our Lady of the Forsaken),1700,1799,Oil on canvas (relined),Paintings,https://images.metmuseum.org/CRDImages/ad/original/SFX_301_2_img1.jpg,421,0
 73,12857,Painting,Bay and Harbor from near Fort Castle William,1847,1850,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.90.9.jpg,2,1
 75,12859,Painting,Black Hawk,1800,1850,Oil on canvas mounted on masonite,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap63.138.4.jpg,2,1
@@ -66,7 +64,6 @@
 117,12994,Painting,Portrait of a Man,1800,1850,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap64.97.4.jpg,2,1
 119,13000,Painting,Sarah Cornell Clarkson (Mrs. William Richmond),1827,1830,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap23.80.81.jpg,2,1
 121,13001,Painting,Seascape Fantasy,1770,1800,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1972.263.2.jpg,2,1
-123,13006,Painting,Still Life—Flowers and Fruit in White and Pink Bowl,1840,1860,"Oil on glass, tinsel",Paintings,https://images.metmuseum.org/CRDImages/ad/original/64.309.7 front.jpg,2,1
 125,13011,Painting,Tobacco Sign,1847,1850,"Oil on wood, iron",Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT9051.jpg,2,1
 127,13017,Painting,View of New York from New Jersey,1847,1850,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1977.258.1.jpg,2,1
 129,13018,Painting,"View of the Battery, New York",1800,1850,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ADA3627.jpg,2,1
@@ -121,7 +118,6 @@
 186,11975,Painting,The Bridge,1877,1883,Oil on gilt leather,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap09.72.8.jpg,10,1
 187,11976,Painting,Curfew Hour,1881,1882,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2945.jpg,10,1
 188,11977,Painting,The Forest of Arden,1888,1908,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT240272.jpg,10,1
-189,11978,Painting,Landscape,1897,1898,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap52.199.jpg,10,1
 190,11979,Painting,Moonlight Marine,1870,1890,Oil and possibly wax on wood panel,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT240273.jpg,10,1
 191,11980,Painting,The Smugglers' Cove,1877,1880,Oil on gilt leather,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-18856-001.jpg,10,1
 192,11981,Painting,The Toilers of the Sea,1877,1885,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT228023.jpg,10,1
@@ -136,7 +132,6 @@
 201,10068,Painting,Walt Whitman,1889,1889,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap91.18.jpg,14,1
 202,12970,Painting,Study in Black and Green (Oil Sketch),1903,1906,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP105798.jpg,14,1
 203,10070,Painting,The Spanish Girl in Reverie,1831,1831,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap01.7.2.jpg,15,1
-204,10072,Painting,A Study from Life [and] Study for Angel Releasing Saint Peter from Prison,1812,1815,Oil on paperboard,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap56.53.jpg,15,1
 205,10075,Painting,Philip Van Cortlandt,1807,1810,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap40.94.jpg,16,1
 206,10076,Painting,James Topham Brady,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap10.106.jpg,17,1
 207,10077,Painting,The Children of Nathan Starr,1835,1835,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT5812.jpg,18,1
@@ -181,7 +176,6 @@
 246,10241,Painting,To Decide the Question,1897,1897,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS238.jpg,44,1
 247,10246,Painting,Lady with a Dog,1786,1786,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS239.jpg,45,1
 248,10247,Painting,Portrait of a Young Woman,1801,1801,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap65.235.jpg,45,1
-249,18113,Painting,General George Eliott,1790,1790,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT5671.jpg,45,1
 250,10258,Painting,Early Morning—Venice,1902,1905,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap09.72.1.jpg,48,1
 251,10259,Painting,Eleanor Hardy Bunker,1890,1890,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap93.20.jpg,49,1
 252,10353,Painting,"Wall Street, Half Past Two, October 13, 1857",1857,1857,Oil on paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.90.136.jpg,53,1
@@ -190,7 +184,6 @@
 255,10421,Painting,The Last Throw,1837,1840,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT3850.jpg,59,1
 256,13401,Painting,Dr. John Wakefield Francis,1800,1859,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap96.25.jpg,59,1
 257,10423,Painting,Taking the Census,1854,1854,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP146263.jpg,60,1
-258,10843,Painting,The New Bonnet,1858,1858,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT77.jpg,60,1
 259,20888,Painting,Preparing for Christmas (Plucking Turkeys),1851,1851,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-14639-001.jpg,60,1
 260,10431,Painting,The Constitution and the Guerriere,1842,1845,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP155950.jpg,62,1
 261,18354,Painting,Lake George and the Village of Caldwell,1847,1850,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap66.242.17.jpg,62,1
@@ -207,7 +200,6 @@
 272,10445,Painting,Chimney Sweeps,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-047.jpg,66,1
 273,10446,Painting,City Watchman,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-051.jpg,66,1
 274,10447,Painting,The Dog Killer,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-033.jpg,66,1
-275,10448,Painting,Fighting a Fire,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-031.jpg,66,1
 276,10449,Painting,Firemen's Washing Day,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-025.jpg,66,1
 277,10450,Painting,Fly Market,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-027.jpg,66,1
 278,10451,Painting,The Garbage Cart,1870,1870,Oil on slate paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-1427-007.jpg,66,1
@@ -245,7 +237,6 @@
 310,10496,Painting,The Mountain Ford,1846,1846,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT216681.jpg,72,1
 311,10497,Painting,"View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm—The Oxbow",1836,1836,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-12550-001.jpg,72,1
 312,10499,Painting,The Titan's Goblet,1833,1833,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-12799-001.jpg,72,1
-313,10500,Painting,A View near Tivoli (Morning),1832,1832,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT208249.jpg,72,1
 314,10501,Painting,View on the Catskill—Early Autumn,1836,1837,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2639.jpg,72,1
 315,20639,Painting,"Sketch for View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm (The Oxbow)",1836,1836,Oil and pencil on composition board,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP325433.jpg,72,1
 316,21693,Painting,Clouds,1833,1843,Oil on paper laid down on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP300700.jpg,72,1
@@ -257,7 +248,6 @@
 322,10517,Painting,Mrs. James Merrill Cook,1840,1840,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap31.29.2.jpg,76,1
 323,10521,Painting,New York from the Harbor Showing the Battery and Castle Garden,1858,1858,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.90.89.jpg,78,1
 324,10522,Painting,Daniel Crommelin Verplanck,1771,1771,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT58.jpg,79,1
-325,10524,Painting,Gulian Verplanck,1771,1771,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2032.jpg,79,1
 326,10526,Painting,Joseph Sherburne,1764,1770,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT214418.jpg,79,1
 327,10527,Painting,Midshipman Augustus Brine,1782,1782,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT11882.jpg,79,1
 328,10530,Painting,Mrs. Jerathmael Bowers,1760,1763,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2033.jpg,79,1
@@ -269,7 +259,6 @@
 334,10554,Painting,Watson and the Shark,1775,1778,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP140862.jpg,79,1
 335,16958,Painting,Elizabeth Greenleaf,1753,1754,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/2002.612.jpg,79,1
 336,16959,Painting,John Greenleaf,1753,1754,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/2002.611.jpg,79,1
-337,10578,Painting,"Autumn Landscape, Sugar Loaf Mountain, Orange County, New York",1867,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap61.262.jpg,84,1
 338,10584,Painting,"Pompton Plains, New Jersey",1867,1867,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT214222.jpg,84,1
 339,10586,Painting,The Valley of Wyoming,1865,1865,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT4598.jpg,84,1
 340,10587,Painting,"View near Sherburne, Chenango County, New York",1853,1853,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap77.3.2.jpg,84,1
@@ -313,7 +302,6 @@
 378,10827,Painting,The Thinker: Portrait of Louis N. Kenton,1900,1900,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT102.jpg,106,1
 379,10828,Painting,The Writing Master,1882,1882,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2038.jpg,106,1
 380,10830,Painting,Elijah Boardman,1789,1789,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT60.jpg,107,1
-381,10832,Painting,Lady Williams and Child,1783,1783,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.179.jpg,107,1
 382,10833,Painting,Marinus Willett,1788,1791,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2936.jpg,107,1
 383,10834,Painting,Master Rees Goring Thomas,1780,1784,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP101530.jpg,107,1
 384,10835,Painting,Mrs. Noah Smith and Her Children,1798,1798,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT214720.jpg,107,1
@@ -334,7 +322,6 @@
 399,10862,Painting,Euterpe,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.46.jpg,114,1
 400,10863,Painting,Melpomene,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.41.jpg,114,1
 401,10864,Painting,Polyhymnia,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.45.jpg,114,1
-402,10865,Painting,Terpsichore,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.44.jpg,114,1
 403,10866,Painting,Thalia,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.48.jpg,114,1
 404,10867,Painting,Urania,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.47.jpg,114,1
 405,10874,Painting,Tench Francis,1746,1746,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap34.153.jpg,115,1
@@ -356,7 +343,6 @@
 421,10947,Painting,Tivoli,1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT1549.jpg,130,1
 422,10966,Painting,The Greek Lovers,1846,1846,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap02.7.2.jpg,133,1
 423,10967,Painting,The Pride of the Village,1858,1859,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap49.166.jpg,133,1
-424,10968,Painting,The Wages of War,1848,1848,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap73.5.jpg,133,1
 425,10975,Painting,Charles Loring Elliott,1868,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap03.31.jpg,135,1
 426,10976,Painting,The Crossing Sweeper,1860,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap25.110.50.jpg,135,1
 427,14472,Painting,The Contest for the Bouquet: The Family of Robert Gordon in Their New York Dining-Room,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2030.jpg,135,1
@@ -369,7 +355,6 @@
 434,10993,Painting,The Artist's Letter Rack,1879,1879,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT243651.jpg,140,1
 435,10994,Painting,The Banker's Table,1877,1877,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2047.jpg,140,1
 436,10995,Painting,New York Daily News,1888,1888,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT10673.jpg,140,1
-437,10996,Painting,Still Life,1888,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap67.155.1.jpg,140,1
 438,10997,Painting,Still Life—Violin and Music,1888,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2046.jpg,140,1
 439,11006,Painting,Godesberg,1852,1852,Oil on wove paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT11076.jpg,142,1
 440,11007,Painting,Mountain Range,1850,1855,Oil on wove paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1973.14.3.jpg,142,1
@@ -436,7 +421,6 @@
 501,11187,Painting,Anna Watson Stuart,1859,1862,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP169501.jpg,168,1
 502,11188,Painting,Cyrus W. Field,1879,1879,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap92.10.41.jpg,168,1
 503,11189,Painting,John David Wolfe,1871,1871,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap87.15.78.jpg,168,1
-504,11191,Painting,Mary Inman,1844,1844,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/GRR Hunt. Ptg. 64.95.jpg,168,1
 505,11192,Painting,Mercy's Dream,1858,1858,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap97.35.jpg,168,1
 506,11193,Painting,Mrs. Birdsall Cornell,1860,1860,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap53.76.jpg,168,1
 507,11194,Painting,Mrs. Sylvester Dering,1878,1878,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap16.68.4.jpg,168,1
@@ -492,7 +476,6 @@
 557,11290,Painting,"Yosemite Falls, from Glacier Point",1879,1879,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP348979.jpg,182,1
 558,11301,Painting,The American Star (George Washington),1800,1803,Oil and gold leaf on paper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT231040.jpg,183,1
 559,11302,Painting,"Washington Reviewing the Western Army at Fort Cumberland, Maryland",1796,1805,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2045.jpg,183,1
-560,11307,Painting,"Eaton's Neck, Long Island",1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.29.jpg,185,1
 561,11308,Painting,A Foggy Sky,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS530.jpg,185,1
 562,11309,Painting,Gathering Storm on Long Island Sound,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.39.jpg,185,1
 563,11310,Painting,Hudson River Scene,1857,1857,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2891.jpg,185,1
@@ -508,7 +491,6 @@
 573,11320,Painting,Salt Meadow in October,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.28.jpg,185,1
 574,11321,Painting,The Sea,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.35.jpg,185,1
 575,11322,Painting,Study of Beeches,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.13.jpg,185,1
-576,11323,Painting,Summer Day on Conesus Lake,1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap25.110.5.jpg,185,1
 577,11324,Painting,Sunset,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.37.jpg,185,1
 578,11325,Painting,Sunset on the Sea,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT226485.jpg,185,1
 579,11326,Painting,Sunset Sky,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap74.30.jpg,185,1
@@ -528,7 +510,6 @@
 593,11407,Painting,Joseph W. Drexel,1877,1877,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap96.23.jpg,195,1
 594,11408,Painting,Self-portrait,1870,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-15885-001.jpg,195,1
 595,11409,Painting,Amory Sibley Carhart,1857,1865,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap64.220.3.jpg,196,1
-596,11411,Painting,William Cullen Bryant,1876,1876,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.1323.jpg,196,1
 597,684606,Painting,Boys Fishing,1846,1846,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-14224-001.jpg,196,1
 598,11417,Painting,Washington Crossing the Delaware,1851,1851,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP215410.jpg,197,1
 599,11418,Painting,Worthington Whittredge,1856,1856,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP201959.jpg,197,1
@@ -542,7 +523,6 @@
 607,11515,Painting,"Behind Dunes, Lake Ontario",1883,1887,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.1287.jpg,208,1
 608,11517,Painting,Old Manor of Criqueboeuf,1879,1892,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap22.117.jpg,208,1
 609,11518,Painting,View on the Seine: Harp of the Winds,1893,1895,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT1510.jpg,208,1
-610,11524,Painting,"Old Annapolis, Francis Street",1876,1876,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT218025.jpg,210,1
 611,11543,Painting,Saturday Afternoon,1875,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT348605.jpg,212,1
 612,11553,Painting,"Old Brewery, Five Points Mission, New York",1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.90.183.jpg,213,1
 613,11583,Painting,A Cosey Corner,1884,1884,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT218488.jpg,216,1
@@ -647,14 +627,12 @@
 712,12977,Painting,Portrait of a Man,1717,1730,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.196.1.jpg,283,1
 713,12630,Painting,Landscape with Waterfall and Figures,1862,1865,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1976.154.jpg,285,1
 714,12631,Painting,Mary Ann Garrits,1834,1834,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap28.198.1.jpg,286,1
-715,12641,Painting,Jonathan Dwight,1787,1790,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap61.90.jpg,288,1
 716,12643,Painting,The Parthenon,1880,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/13239.jpg,289,1
 717,12644,Painting,John and Louisa Stock,1845,1845,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP368631.jpg,290,1
 718,12646,Painting,Mary Cadwalader Rawle,1868,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2068.jpg,291,1
 719,12690,Painting,John Finley,1821,1821,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap94.23.2.jpg,294,1
 720,12692,Painting,Major John Biddle,1818,1818,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT236871.jpg,294,1
 721,12693,Painting,Mother and Son,1840,1840,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT11612.jpg,294,1
-722,12694,Painting,Mrs. Huges,1827,1830,"Oil and graphite on heavy, tone (formerly blue) wover paper",Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.181 recto.jpg,294,1
 723,12695,Painting,"Mrs. James Montgomery, Jr.",1842,1845,Oil on artist board,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap37.130.jpg,294,1
 724,12696,Painting,Mrs. John Biddle (Eliza Falconer Bradish),1818,1818,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT236872.jpg,294,1
 725,12698,Painting,Mrs. Katherine Matthews,1812,1813,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.178.jpg,294,1
@@ -681,7 +659,6 @@
 746,12799,Painting,Spring,1838,1838,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS2182.jpg,307,1
 747,12800,Painting,The Belated Party on Mansfield Mountain,1858,1858,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2098.jpg,308,1
 748,12801,Painting,Song of the Waters,1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT7757.jpg,308,1
-749,12802,Painting,Summer Flowers,1859,1859,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1984.252.1.jpg,308,1
 750,12806,Painting,"The U. S. Ship Franklin, with a View of the Bay of New York",1820,1830,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap54.90.289.jpg,309,1
 751,12811,Painting,Trappers,1852,1855,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1985.354.jpg,312,1
 752,12819,Painting,Alexander Hamilton,1804,1806,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT222199.jpg,313,1
@@ -714,7 +691,6 @@
 779,13210,Painting,Arrangement in Black: Girl Reading,1877,1890,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP361944.jpg,324,1
 780,13211,Painting,Arrangement in Flesh Colour and Black: Portrait of Theodore Duret,1883,1883,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT92.jpg,324,1
 781,13223,Painting,"Cremorne Gardens, No. 2",1867,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2780.jpg,324,1
-782,13225,Painting,Edward Guthrie Kennedy,1893,1895,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap09.222.jpg,324,1
 783,13237,Painting,Harmony in Yellow and Gold: The Gold Girl—Connie Gilchrist,1876,1877,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP166780.jpg,324,1
 784,13269,Painting,Nocturne in Green and Gold,1876,1877,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.286.jpg,324,1
 785,13043,Painting,The Calumny of Apelles,1849,1849,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap24.186.jpg,325,1
@@ -744,13 +720,10 @@
 809,13196,Painting,George Washington,1795,1795,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap24.109.82.jpg,345,1
 810,13198,Painting,The Damsel and Orlando,1790,1793,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap95.22.5.jpg,346,1
 811,13199,Painting,Hagar and Ishmael,1776,1803,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT283577.jpg,346,1
-812,13200,Painting,Moses Shown the Promised Land,1801,1801,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap69.73.jpg,346,1
 813,13202,Painting,"Omnia Vincit Amor, or The Power of Love in the Three Elements",1809,1809,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2075.jpg,346,1
 814,13204,Painting,Sarah Ursula Rose,1756,1756,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap64.309.2.jpg,346,1
-815,13307,Painting,The Antiquary,1855,1855,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/GRR White Ptg. 77.5 Ret.jpg,347,1
 816,13312,Painting,The Camp Meeting,1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT228976.jpg,348,1
 817,13313,Painting,Evening in the Woods,1876,1876,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS2208.jpg,348,1
-818,13315,Painting,The Trout Pool,1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT11615.jpg,348,1
 819,16875,Painting,The Brook in the Woods,1882,1886,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT5642.jpg,348,1
 820,13331,Painting,"Portrait of a Boy, Probably of the Crossfield Family",1767,1775,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap65.34.jpg,350,1
 821,13334,Painting,Cadwallader Colden,1749,1752,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap22.45.6.jpg,351,1
@@ -761,7 +734,6 @@
 826,13343,Painting,Thomas Macdonough,1815,1818,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap49.146.jpg,352,1
 827,13344,Painting,A Bit of War History: The Veteran,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2078.jpg,353,1
 828,13345,Painting,A Bit of War History: The Contraband,1865,1865,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2076.jpg,353,1
-829,13346,Painting,A Bit of War History: The Recruit,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT2077.jpg,353,1
 830,13349,Painting,Still Life: Peaches and Grapes,1820,1830,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT1553.jpg,354,1
 831,13350,Painting,"Still Life: Peaches, Apple, and Pear",1822,1825,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap41.152.2.jpg,354,1
 832,13351,Painting,"Broad, Silent Valley",1877,1887,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap06.1306.jpg,355,1
@@ -771,17 +743,14 @@
 836,13357,Painting,View in County Kerry,1872,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap87.8.11.jpg,355,1
 837,13360,Painting,Sunset,1867,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap64.198.7.jpg,357,1
 838,14483,Painting,Gentleman of the Hale Family,1804,1807,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/186412.jpg,361,1
-839,14512,Painting,Benjamin West (fragment from a portrait),1818,1818,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap95.22.6 b.jpg,363,1
 840,14513,Painting,Benjamin West,1818,1818,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/63428.jpg,363,1
 841,14514,Painting,Mrs. Ethel Cushing,1909,1914,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT217947.jpg,364,1
-842,16345,Painting,Conversation Piece,1851,1852,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT4335.jpg,367,1
 843,21126,Painting,Young Husband: First Marketing,1854,1854,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP355340.jpg,367,1
 844,16590,Painting,Still Life with Fruit,1838,1917,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/ap1999.298.jpg,368,1
 845,16591,Painting,Still Life with Ewer and Fruit,1838,1917,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT4431.jpg,368,1
 846,16592,Painting,Still Life with Grapes,1838,1917,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT4432.jpg,368,1
 847,17447,Painting,Portrait of a Lady,1764,1764,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DT5410.jpg,371,1
 848,17517,Painting,Portrait of a Lady and Child,1833,1833,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/APS3468.jpg,373,1
-849,19065,Painting,The Family of John Q. Aymar,1830,1836,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/figure 107R1_24Z.jpg,373,1
 850,20517,Painting,Portrait of William Duguid,1773,1773,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP232807.jpg,399,1
 851,437271,Painting,Our Lady of Guápulo,1675,1685,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP-16347-001.jpg,921,1
 852,631985,Painting,The Entombment of Christ,1697,1707,Oil and gold on copper,Paintings,https://images.metmuseum.org/CRDImages/ad/original/DP333083.jpg,2167,1
@@ -804,7 +773,7 @@
 875,436729,Painting,"Alfonso I d'Este (1476–1534), Duke of Ferrara",1525,1550,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/aa/original/0571.jpg,642,2
 877,36116,Painting,松に鷹図大津絵|Ōtsu-e of Falcon on a Pine Tree,1700,1799,Hanging scroll; ink and color on paper,Paintings,https://images.metmuseum.org/CRDImages/as/original/LC-1975_268_148_at-002.jpg,2,3
 879,54791,Painting,方便法身尊影|Amida Manifesting in the Dharma-body of Expedient Means,1700,1799,"Ink, color, and cut silver on silk",Paintings,https://images.metmuseum.org/CRDImages/as/original/18_146_1_O4_sf.JPG,2,3
-881,676034,Painting,산신과 호랑이	조선|山神圖  朝鮮|Mountain god with tiger and attendants,1874,1874,Ink and color on silk,Paintings,https://images.metmuseum.org/CRDImages/as/original/DP-14823-002.jpg,2,3
+881,676034,Painting,"산신과 호랑이	조선|山神圖  朝鮮|Mountain god with tiger and attendants",1874,1874,Ink and color on silk,Paintings,https://images.metmuseum.org/CRDImages/as/original/DP-14823-002.jpg,2,3
 883,48940,Painting,清  佚名   滿清官員像     軸|Portrait of a Manchu Official,1600,1799,Framed painting; ink and color on silk,Paintings,https://images.metmuseum.org/CRDImages/as/original/51_39_5_149653.JPG,407,3
 884,42344,Painting,四季山水画 （瀟湘八景）|Landscape of the Four Seasons (Eight Views of the Xiao and Xiang Rivers),1500,1533,Pair of six-panel folding screens; ink on paper,Screens,https://images.metmuseum.org/CRDImages/as/original/DT5560.jpg,409,3
 885,701452,Painting,清 王鑑  倣范寬山水圖|Mountain Scenery with Streams and Pavilions in the Style of Fan Kuan,1667,1667,Framed hanging scroll; ink and color on paper,Paintings,https://images.metmuseum.org/CRDImages/as/original/LC-2015_788_sr1_03.jpg,2284,3
@@ -833,7 +802,6 @@
 909,436399,Painting,Cartoon for the Back of a Tapestry Settee,1775,1799,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/1935.jpg,416,9
 910,436404,Painting,Portrait of a Woman Holding a Book,1730,1769,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep48.187.734.bw.R.jpg,416,9
 911,436406,Painting,Study of a Nude Man,1810,1820,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep52.71.R.jpg,416,9
-912,436407,Painting,Portrait of a Man in a Blue Coat,1800,1829,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep48.187.735.bw.R.jpg,416,9
 913,436408,Painting,Napoleon Bonaparte (1769–1821),1830,1869,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep77.6.bw.R.jpg,416,9
 914,437772,Painting,Portrait of a Man Wearing the Order of the Annunziata of Savoy,1500,1524,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP134700.jpg,416,9
 915,435737,Painting,Imaginary Landscape with the Palatine Hill from Campo Vaccino,1734,1734,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-409-001.jpg,417,9
@@ -896,7 +864,6 @@
 972,435633,Painting,"Skating at Sloten, near Amsterdam",1642,1666,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143154.jpg,460,9
 973,435635,Painting,Chancellor Leonhard von Eck (1480–1550),1527,1527,Oil on spruce,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP280850.jpg,461,9
 974,435640,Painting,Madonna Adoring the Sleeping Child,1460,1463,Tempera on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT7219.jpg,462,9
-975,435641,Painting,Madonna and Child,1487,1489,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT375.jpg,462,9
 976,435642,Painting,Madonna and Child with Saints,1459,1516,Tempera and oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP104372.jpg,462,9
 977,435643,Painting,The Circumcision,1511,1511,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep17.190.9.bw.R.jpg,462,9
 978,435644,Painting,Madonna and Child,1505,1515,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT301874.jpg,462,9
@@ -912,7 +879,6 @@
 988,435658,Painting,Madonna and Child,1228,1236,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT5279.jpg,472,9
 989,435659,Painting,Madonna and Child with Angels,1515,1515,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep41.100.13.bw.R.jpg,473,9
 990,435663,Painting,Still Life with Lobster and Fruit,1650,1653,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143207.jpg,474,9
-991,435664,Painting,Portrait of a Young Man,1476,1504,Tempera on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP161258.jpg,475,9
 992,435665,Painting,Scenes from the Story of the Argonauts,1476,1504,"Tempera on wood, gilt ornaments",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164778.jpg,475,9
 993,435666,Painting,The Story of Joseph,1476,1504,Tempera on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT292812.jpg,475,9
 994,436994,Painting,Scenes from the Story of the Argonauts,1460,1470,"Tempera on wood, gilt ornaments",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164779.jpg,475,9
@@ -928,7 +894,6 @@
 1004,435687,Painting,Portrait of a Man,1781,1845,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-1420-01.jpg,484,9
 1005,435688,Painting,Portrait of a Woman,1781,1845,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-1419-01.jpg,484,9
 1006,438099,Painting,"The Public Viewing David’s ""Coronation"" at the Louvre",1810,1810,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP270310.jpg,484,9
-1007,435689,Painting,Portrait of a Woman,1642,1642,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145922.jpg,485,9
 1008,435690,Painting,Petronella Elias (1648–1667) with a Basket of Fruit,1657,1657,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143180.jpg,485,9
 1009,435691,Painting,Gossip,1873,1873,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT219388.jpg,486,9
 1010,435694,Painting,The Dispatch-Bearer,1865,1931,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP223662.jpg,486,9
@@ -939,7 +904,6 @@
 1015,435705,Painting,The Legend of the Infant Servius Tullius,1507,1553,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/Bonifazio.jpg,489,9
 1016,435706,Painting,Madonna and Child with Saints,1507,1553,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT11627.jpg,489,9
 1017,435707,Painting,Roadside Halt,1826,1826,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164827.jpg,490,9
-1018,438449,Painting,View near Rouen,1820,1830,Oil on millboard,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4937.jpg,490,9
 1019,435713,Painting,"The Disillusioned Medea (""The Enchantress"")",1635,1645,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP120565.jpg,492,9
 1020,435714,Painting,Curiosity,1660,1662,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145405.jpg,493,9
 1021,435715,Painting,Portrait of a Seated Man,1657,1663,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP136269.jpg,493,9
@@ -992,7 +956,6 @@
 1067,435805,Painting,A Peasant with a Bird,1626,1638,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep32.100.3.bw.R.jpg,515,9
 1068,435806,Painting,A Peasant Woman Picking Fleas off a Dog,1626,1627,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep32.100.1.bw.R.jpg,515,9
 1069,435807,Painting,The Smokers,1631,1638,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-15904-001.jpg,515,9
-1070,435808,Painting,The Brawl,1600,1699,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep32.100.2.bw.R.jpg,515,9
 1071,435809,Painting,The Harvesters,1565,1565,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg,516,9
 1072,435810,Painting,A Woodland Road with Travelers,1607,1607,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10768.jpg,517,9
 1074,435813,Painting,Aeneas and the Sibyl in the Underworld,1630,1639,Oil on copper,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP234687.jpg,517,9
@@ -1022,7 +985,6 @@
 1104,438105,Painting,An Island in the Lagoon with a Church and a Column,1717,1768,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/Wrightsman20.jpg,529,9
 1105,438106,Painting,Warwick Castle,1748,1748,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/Wrightsman21.jpg,529,9
 1106,435842,Painting,A State Yacht and Other Craft in Calm Water,1655,1665,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143157.jpg,530,9
-1107,435843,Painting,Winter Scene,1644,1679,Oil on oak,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143174.jpg,530,9
 1108,435844,Painting,The Musicians,1590,1600,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg,531,9
 1109,437986,Painting,The Denial of Saint Peter,1610,1610,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-12413-001.jpg,531,9
 1110,435847,Painting,"Saint Vincent, Patron Saint of Lisbon",1525,1549,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT282013.jpg,532,9
@@ -1077,8 +1039,6 @@
 1159,435897,Painting,Head of Christ,1440,1450,"Oil on parchment, laid down on wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT229079.jpg,550,9
 1160,435898,Painting,The Lamentation,1445,1455,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1480.jpg,550,9
 1161,435899,Painting,The Annunciation,1445,1455,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1479.jpg,550,9
-1162,435900,Painting,The Adoration of the Shepherds with Saint Catherine of Alexandria,1599,1599,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT6545.jpg,551,9
-1163,435901,Painting,Madonna and Child with Saints Francis and Clare,1505,1515,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/SF 41.190.11.jpg,552,9
 1164,435902,Painting,"Three Saints: Roch, Anthony Abbot, and Lucy",1508,1518,"Oil on canvas, transferred from wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP214439.jpg,552,9
 1165,435904,Painting,Still Life with a Skull and a Writing Quill,1628,1628,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145929.jpg,553,9
 1166,435905,Painting,The Ford,1636,1636,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP123844.jpg,554,9
@@ -1092,10 +1052,8 @@
 1174,435917,Painting,The Adoration of the Shepherds,1561,1561,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP80.jpg,557,9
 1175,435918,Painting,Vanitas Still Life,1662,1662,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146494.jpg,558,9
 1176,435921,Painting,"Mrs. James Pulham Sr. (Frances Amys, ca. 1766–1856)",1818,1818,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP162142.jpg,559,9
-1177,435922,Painting,Salisbury Cathedral from the Bishop's Grounds,1820,1830,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164837.jpg,559,9
 1178,435923,Painting,Stoke-by-Nayland,1805,1815,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164805.jpg,559,9
 1179,435940,Painting,Madonna and Child,1516,1522,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT8841.jpg,560,9
-1180,435944,Painting,Portrait of a Man with Gloves,1530,1540,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-13588-001.jpg,561,9
 1181,435945,Painting,"Anne de Pisseleu (1508–1576), Duchesse d'Étampes",1535,1540,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP102428.jpg,561,9
 1182,435946,Painting,"Charles de Cossé (1506–1563), Comte de Brissac",1533,1575,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep49.7.44.bw.R.jpg,561,9
 1183,435947,Painting,Jean d'Albon de Saint-André (1472–1549),1533,1575,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep32.100.103.bw.R.jpg,561,9
@@ -1114,7 +1072,6 @@
 1196,435960,Painting,Portrait of a Widow,1525,1549,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep32.100.113.bw.R.jpg,561,9
 1197,435961,Painting,Toussaint Lemaistre (1807/8–1888),1833,1833,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2017.jpg,562,9
 1198,435962,Painting,Hagar in the Wilderness,1835,1835,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2013.jpg,562,9
-1199,435963,Painting,Bacchante by the Sea,1865,1865,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-16590-001.jpg,562,9
 1200,435964,Painting,The Gypsies,1872,1872,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-16064-001.jpg,562,9
 1201,435965,Painting,Bacchante in a Landscape,1865,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep29.100.598.R.jpg,562,9
 1202,435966,Painting,Boatman among the Reeds,1860,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP332566.jpg,562,9
@@ -1150,7 +1107,6 @@
 1232,436001,Painting,"Jo, La Belle Irlandaise",1865,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1909.jpg,567,9
 1233,436002,Painting,Woman with a Parrot,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17680-001.jpg,567,9
 1234,436003,Painting,The Young Bather,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-15681-001.jpg,567,9
-1235,436004,Painting,The Woman in the Waves,1868,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT887.jpg,567,9
 1236,436005,Painting,The Calm Sea,1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1973.jpg,567,9
 1237,436006,Painting,Marine: The Waterspout,1870,1870,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1965.jpg,567,9
 1238,436007,Painting,After the Hunt,1859,1859,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1963.jpg,567,9
@@ -1210,7 +1166,6 @@
 1308,436068,Painting,Christ Enthroned with Saints,1320,1330,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP261714.jpg,577,9
 1309,438423,Painting,The Crucifixion,1325,30,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4527.jpg,577,9
 1310,436077,Painting,Portrait of a Woman,1696,1743,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169402.jpg,579,9
-1311,436078,Painting,Charity,1616,1656,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-15425-001.jpg,580,9
 1312,436079,Painting,Uvedale Tomkyns Price (1685–1764) and Members of His Family,1730,1733,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP167131.jpg,581,9
 1313,436080,Painting,The Banks of the Oise,1863,1863,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep14.40.815.bw.R.jpg,582,9
 1314,436081,Painting,Landscape on a River,1863,1863,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/2106.jpg,582,9
@@ -1250,7 +1205,6 @@
 1347,436138,Painting,Dancers in the Rehearsal Room with a Double Bass,1882,1885,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP275510.jpg,589,9
 1348,436139,Painting,Dancers Practicing at the Barre,1877,1877,Mixed media on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT840.jpg,589,9
 1349,436140,Painting,"Dancers, Pink and Green",1885,1895,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-14936-033.jpg,589,9
-1350,436141,Painting,The Dancing Class,1870,1870,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1564.jpg,589,9
 1351,436144,Painting,James-Jacques-Joseph Tissot (1836–1902),1867,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2117.jpg,589,9
 1352,436145,Painting,Joseph-Henri Altès (1826–1895),1868,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT204709.jpg,589,9
 1353,436149,Painting,"Madame Théodore Gobillard (Yves Morisot, 1838–1893)",1869,1869,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2156.jpg,589,9
@@ -1271,7 +1225,6 @@
 1368,436180,Painting,The Natchez,1823,1835,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-14345-001.jpg,590,9
 1369,438110,Painting,Rebecca and the Wounded Ivanhoe,1823,1823,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/CT_41554.jpg,590,9
 1370,438814,Painting,The Abduction of Rebecca,1846,1846,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-14344-001.jpg,590,9
-1371,439631,Painting,Ovid among the Scythians,1862,1862,"Oil on paper, laid down on wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP159761.jpg,590,9
 1372,436182,Painting,Triumph of the Amazons,1620,1629,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP318357.jpg,591,9
 1373,436183,Painting,Departure of the Amazons,1620,1629,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP318355.jpg,591,9
 1374,436184,Painting,Objects of Art from the Louvre,1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep87.15.119.bw.R.jpg,592,9
@@ -1328,7 +1281,6 @@
 1425,437636,Painting,Domestic Scene,1775,1780,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT11332.jpg,616,9
 1426,436248,Painting,A Young Woman in a Landscape,1636,1636,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143171.jpg,617,9
 1427,436252,Painting,"James Stuart (1612–1655), Duke of Richmond and Lennox",1633,1635,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT5475.jpg,618,9
-1428,436253,Painting,Lucas van Uffel (died 1637),1621,1627,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT31.jpg,618,9
 1429,436254,Painting,Portrait of a Man,1613,1623,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP361123.jpg,618,9
 1430,436255,Painting,"Portrait of a Woman, Called the Marchesa Durazzo",1622,1625,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17538-001.jpg,618,9
 1431,436256,Painting,"Robert Rich (1587–1658), Second Earl of Warwick",1632,1635,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2821.jpg,618,9
@@ -1360,25 +1312,20 @@
 1468,436287,Painting,Heinrich(?) vom Rhein zum Mohren (1477–1536),1527,1529,Oil and gold on oak,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164864.jpg,626,9
 1469,436288,Painting,Abraham Dismissing Hagar and Ishmael,1658,1658,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143212.jpg,627,9
 1470,436290,Painting,Flowers by a Stone Vase,1786,1786,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep48.187.737.R.jpg,628,9
-1471,436291,Painting,Flowers in a Stone Vase,1786,1786,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep48.187.738.bw.R.jpg,628,9
 1472,436292,Painting,Still Life with Roses and Fruit,1863,1863,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT8649.jpg,629,9
 1473,436293,Painting,Still Life with Flowers and Fruit,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1980.jpg,629,9
 1474,436294,Painting,Still Life with Pansies,1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1576.jpg,629,9
-1475,436295,Painting,Portrait of a Woman,1885,1885,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP265190.jpg,629,9
 1476,436296,Painting,The Palace of Aurora,1856,1904,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-2943.001.jpg,629,9
 1477,436297,Painting,Self-Portrait,1856,1904,"Oil on canvas, laid down on canvas",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1979.jpg,629,9
 1478,437985,Painting,Pansies,1903,1903,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17401-001.jpg,629,9
 1479,437995,Painting,Roses in a Bowl,1883,1883,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10260.jpg,629,9
 1480,437996,Painting,Roses and Lilies,1888,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT9200.jpg,629,9
 1481,437997,Painting,Asters and Fruit on a Table,1868,1868,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT9199.jpg,629,9
-1482,438031,Painting,Summer Flowers,1880,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4204.jpg,629,9
 1483,629928,Painting,Potted Pansies,1883,1883,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP318075(a).jpg,629,9
 1484,436300,Painting,Saints John the Evangelist and Lawrence,1510,1531,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP1475.jpg,630,9
 1485,436301,Painting,The Parable of the Mote and the Beam,1614,1624,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT6682.jpg,631,9
-1486,436302,Painting,The Good Samaritan,1618,1622,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP278746.jpg,631,9
 1487,438169,Painting,Salvator Mundi,1622,1623,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP148737.jpg,631,9
 1488,436305,Painting,Still Life,1625,1630,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1572.jpg,632,9
-1489,436309,Painting,Bearded Man with a Velvet Cap,1645,1645,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP136267.jpg,633,9
 1490,437405,Painting,"A Young Woman as a Shepherdess (""Saskia as Flora"")",1635,1660,"Oil on canvas, transferred from wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146492.jpg,633,9
 1491,436310,Painting,Portrait of a Prelate,1575,1585,Oil on copper,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT201083.jpg,634,9
 1492,436311,Painting,Madonna and Child,1475,1485,"Tempera, oil, and gold on wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP258301.jpg,635,9
@@ -1505,7 +1452,6 @@
 1625,436535,Painting,Wheat Field with Cypresses,1889,1889,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1567.jpg,676,9
 1626,436536,Painting,Women Picking Olives,1889,1889,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17161-001.jpg,676,9
 1627,437980,Painting,Cypresses,1889,1889,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP130999.jpg,676,9
-1628,437984,Painting,"La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",1889,1889,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1951.jpg,676,9
 1629,437998,Painting,Olive Trees,1853,1890,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1946.jpg,676,9
 1630,438722,Painting,The Potato Peeler (reverse: Self-Portrait with a Straw Hat),1885,1885,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1503.jpg,676,9
 1631,436538,Painting,Portrait of a Man,1520,1525,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP231747.jpg,677,9
@@ -1534,7 +1480,6 @@
 1654,438374,Painting,A Beach with Fishing Boats,1653,1653,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP120413.jpg,679,9
 1655,438375,Painting,A View of The Hague from the Northwest,1647,1647,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP147601.jpg,679,9
 1656,436561,Painting,"Saints Nicholas of Tolentino, Roch, Sebastian, and Bernardino of Siena, with Kneeling Donors",1481,1481,"Tempera and gold on canvas, transferred from wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10247.jpg,680,9
-1657,436567,Painting,Scenes from the Life of Saint John the Baptist,1506,1507,"Tempera, oil, and gold on wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP214411.jpg,681,9
 1658,436568,Painting,Saint John the Baptist Bearing Witness,1506,1507,Oil and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT11166.jpg,681,9
 1659,438432,Painting,Madonna and Child,1515,1525,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP221238.jpg,681,9
 1660,436569,Painting,The Choir of the Capuchin Church in Rome,1814,1815,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2550.jpg,682,9
@@ -1547,7 +1492,6 @@
 1667,436575,Painting,View of Toledo,1598,1599,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP349564.jpg,683,9
 1668,436576,Painting,The Vision of Saint John,1609,1614,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17641-001.jpg,683,9
 1669,436577,Painting,Saint Andrew,1605,1615,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1493.jpg,685,9
-1670,436579,Painting,Broken Eggs,1756,1756,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-12952-001.jpg,686,9
 1671,436580,Painting,Aegina Visited by Jupiter,1767,1769,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-12954-001.jpg,686,9
 1672,436581,Painting,"Charles Claude de Flahaut (1730–1809), Comte d'Angiviller",1763,1763,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-12953-001.jpg,686,9
 1673,436582,Painting,Head of a Young Woman,1780,1789,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-18078-001.jpg,686,9
@@ -1582,7 +1526,6 @@
 1715,436619,Painting,Petrus Scriverius (1576–1660),1626,1626,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP247208.jpg,695,9
 1716,436620,Painting,Paulus Verschuur (1606–1667),1643,1643,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146480.jpg,695,9
 1717,436621,Painting,"Portrait of a Man, Possibly Nicolaes Pietersz Duyst van Voorhout (born about 1600, died 1650)",1636,1638,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP124055.jpg,695,9
-1718,436622,Painting,Merrymakers at Shrovetide,1616,1617,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145901.jpg,695,9
 1719,436623,Painting,Portrait of a Man,1650,1653,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146458.jpg,695,9
 1720,436624,Painting,Portrait of a Woman,1645,1655,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143203.jpg,695,9
 1721,436625,Painting,The Smoker,1623,1625,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146499.jpg,695,9
@@ -1598,7 +1541,6 @@
 1731,436638,Painting,"Jacob Willemsz. van Veen (1456–1535), the Artist's Father",1532,1532,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP257598.jpg,701,9
 1732,436641,Painting,Portrait of a Man,1647,1647,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143191.jpg,702,9
 1733,436642,Painting,The Musician,1662,1662,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-18251-001.jpg,702,9
-1734,436643,Painting,The Calling of Matthew,1524,1564,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT201070.jpg,703,9
 1735,436644,Painting,A Bather (Echo),1881,1881,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP966.jpg,704,9
 1736,436645,Painting,Young Woman Praying,1849,1905,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep37.20.2.bw.R.jpg,704,9
 1737,436647,Painting,The Huis ten Bosch at The Hague and Its Formal Garden (View from the South),1668,1670,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145408.jpg,705,9
@@ -1714,7 +1656,6 @@
 1850,436851,Painting,"Elizabeth Farren (born about 1759, died 1829), Later Countess of Derby",1790,1790,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169218.jpg,763,9
 1851,436852,Painting,John Julius Angerstein (1736–1823),1789,1830,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP162165.jpg,763,9
 1852,436853,Painting,Lady Maria Conyngham (died 1843),1824,1825,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP162160.jpg,763,9
-1853,436858,Painting,The Rape of Tamar,1635,1645,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT7839.jpg,764,9
 1854,436861,Painting,A Masked Ball in Bohemia,1743,1753,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP170809.jpg,765,9
 1855,436863,Painting,General Garibaldi's Residence at Caprera,1865,1865,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10724.jpg,766,9
 1856,436866,Painting,Graziella,1878,1878,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT209324.jpg,767,9
@@ -1743,9 +1684,7 @@
 1879,436903,Painting,The Visit,1746,1746,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP124057.jpg,783,9
 1880,436904,Painting,The Letter,1746,1746,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP123833.jpg,783,9
 1881,436905,Painting,The Meeting,1746,1746,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP123846.jpg,783,9
-1882,436906,Painting,The Temptation,1746,1746,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP124058.jpg,783,9
 1883,436907,Painting,Madonna and Child,1319,1347,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep41.190.26.bw.R.jpg,784,9
-1884,436908,Painting,Saint Catherine of Alexandria,1342,1344,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/SF Lorenzetti.jpg,785,9
 1885,438605,Painting,The Crucifixion,1340,1344,Tempera and gold leaf on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg,785,9
 1886,436909,Painting,Madonna Adoring the Child with the Infant Saint John the Baptist and an Angel,1490,1490,Tempera on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP358280.jpg,786,9
 1887,436910,Painting,Portrait of a Young Woman,1490,1500,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP161260.jpg,786,9
@@ -1790,7 +1729,6 @@
 1926,436964,Painting,Young Lady in 1866,1866,1866,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP273977.jpg,801,9
 1927,436965,Painting,The Monet Family in Their Garden at Argenteuil,1874,1874,"Oil on canvas
 ",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1562.jpg,801,9
-1928,438002,Painting,"Madame Manet (Suzanne Leenhoff, 1830–1906) at Bellevue",1880,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4224.jpg,801,9
 1929,438144,Painting,"The ""Kearsarge"" at Boulogne",1864,1864,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT204991.jpg,801,9
 1930,438819,Painting,Young Man in the Costume of a Majo,1863,1863,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT862.jpg,801,9
 1931,436966,Painting,The Adoration of the Shepherds,1450,1459,"Tempera on canvas, transferred from wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg,802,9
@@ -1802,7 +1740,6 @@
 1941,436974,Painting,Canal Side,1857,1899,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143175.jpg,805,9
 1942,436975,Painting,Reverie,1875,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143204.jpg,806,9
 1943,436976,Painting,"Still Life with Poppy, Insects, and Reptiles",1665,1675,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145933.jpg,807,9
-1944,436982,Painting,Saint Anthony of Padua,1320,1346,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/SF Maso.jpg,808,9
 1945,436984,Painting,The Adoration of the Magi,1526,1526,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT5275.jpg,809,9
 1946,436985,Painting,Portrait of a Man,1485,1530,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT280221.jpg,809,9
 1947,436986,Painting,Portrait of a Woman,1515,1525,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1461.jpg,809,9
@@ -1845,7 +1782,6 @@
 1988,437051,Painting,A General and His Aide-de-camp,1869,1869,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep87.15.37.R.jpg,836,9
 1989,437052,Painting,"1807, Friedland",1860,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2144.jpg,836,9
 1990,437053,Painting,The Afternoon Meal (La Merienda),1772,1772,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1570.jpg,837,9
-1991,437054,Painting,Virgin and Child with Saints Catherine of Alexandria and Barbara,1480,1483,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1465.jpg,838,9
 1992,437055,Painting,Portrait of an Old Man,1470,1480,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP336526.jpg,838,9
 1993,437056,Painting,"Tommaso di Folco Portinari (1428–1501); Maria Portinari (Maria Maddalena Baroncelli, born 1456)",1465,1475,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT28_DT29.jpg,838,9
 1994,437057,Painting,Virgin and Child,1475,1480,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT7221.jpg,838,9
@@ -1901,7 +1837,6 @@
 2044,437157,Painting,Christ in the Wilderness,1515,1520,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT200983.jpg,868,9
 2045,437158,Painting,Portrait of a Man,1520,1525,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT11762.jpg,868,9
 2046,437159,Painting,Young Woman Knitting,1878,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1928.jpg,869,9
-2047,438009,Painting,"The Pink Dress (Albertie-Marguerite Carré, later Madame Ferdinand-Henri Himmes, 1854–1935)",1865,1875,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1927.jpg,869,9
 2048,437161,Painting,The Bell Inn,1787,1789,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169631.jpg,870,9
 2049,437163,Painting,Abbess Lucrezia Agliardi Vertova (1490?–1558),1557,1557,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP105661.jpg,871,9
 2050,437164,Painting,Bartolommeo Bonghi (died 1584),1553,1559,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT382.jpg,871,9
@@ -1916,7 +1851,6 @@
 2059,437177,Painting,"Count Giacomo Durazzo (1717–1794) in the Guise of a Huntsman with His Wife (Ernestine Aloisia Ungnad von Weissenwolff, 1732–1794)",1760,1763,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP104989.jpg,877,9
 2060,437178,Painting,The Newborn Baby,1675,1675,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146497.jpg,878,9
 2061,437179,Painting,"Near Penshurst, Kent",1828,1828,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP164787.jpg,879,9
-2062,437180,Painting,The Rebuke of Adam and Eve,1740,1740,Oil on copper,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT5746.jpg,880,9
 2063,437181,Painting,Madame Marsollier and Her Daughter,1749,1749,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP247889.jpg,881,9
 2064,437182,Painting,"Portrait of a Woman, Called the Marquise Perrin de Cypierre",1753,1753,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT8872.jpg,881,9
 2065,437183,Painting,Madame de Maison-Rouge as Diana,1756,1756,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169499.jpg,881,9
@@ -1988,17 +1922,14 @@
 2133,437285,Painting,The Young Saint John the Baptist,1482,1521,Tempera and oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT514.jpg,929,9
 2134,437286,Painting,The Death of Harmonia,1740,1741,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP335085.jpg,930,9
 2135,437290,Painting,Madonna and Child with Angels,1420,1420,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT5276.jpg,931,9
-2136,437291,Painting,Processional Crucifix,1478,1496,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/ep/original/SF front 22.60.61.jpg,932,9
 2137,437295,Painting,Thusnelda at the Triumphal Entry of Germanicus into Rome,1870,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep87.2.bw.R.jpg,933,9
 2138,437298,Painting,The Presentation in the Temple,1425,1435,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT8826.jpg,934,9
 2139,437299,Painting,"Jalais Hill, Pontoise",1867,1867,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1859.jpg,935,9
 2140,437300,Painting,"A Cowherd at Valhermeil, Auvers-sur-Oise",1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1556.jpg,935,9
-2141,437301,Painting,The Public Garden at Pontoise,1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1868.jpg,935,9
 2142,437302,Painting,Barges at Pontoise,1876,1876,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1865.jpg,935,9
 2143,437303,Painting,"Washerwoman, Study",1880,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1857.jpg,935,9
 2144,437304,Painting,Two Young Peasant Women,1891,1892,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1860.jpg,935,9
 2145,437305,Painting,A Washerwoman at Éragny,1893,1893,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1867.jpg,935,9
-2146,437306,Painting,Bather in the Woods,1895,1895,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT837.jpg,935,9
 2147,437307,Painting,"Poplars, Éragny",1895,1895,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1866.jpg,935,9
 2148,437308,Painting,"Morning, An Overcast Day, Rouen",1896,1896,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1863.jpg,935,9
 2149,437309,Painting,Steamboats in the Port of Rouen,1896,1896,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1864.jpg,935,9
@@ -2098,7 +2029,6 @@
 2243,437422,Painting,Charity,1595,1642,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10776.jpg,961,9
 2244,437423,Painting,The Immaculate Conception,1627,1627,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1138.jpg,961,9
 2245,437424,Painting,"Madame Édouard Bernier (Marie-Octavie-Stéphanie Laurens, 1838–1920)",1871,1871,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1399.jpg,962,9
-2246,437425,Painting,Marguerite-Thérèse (Margot) Berard (1874–1956),1879,1879,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1489.jpg,962,9
 2247,437426,Painting,View of the Seacoast near Wargemont in Normandy,1880,1880,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP136266.jpg,962,9
 2248,437427,Painting,The Bay of Naples,1881,1881,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1878.jpg,962,9
 2249,437428,Painting,Still Life with Peaches and Grapes,1881,1881,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1876.jpg,962,9
@@ -2149,7 +2079,6 @@
 2294,437501,Painting,"Mrs. Bryan Cooke (Frances Puleston, 1765–1818)",1787,1791,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169397.jpg,974,9
 2295,437502,Painting,"Mrs. Charles Frederick (Martha Rigden, died 1794)",1754,1802,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169217.jpg,974,9
 2296,437504,Painting,Self-Portrait,1795,1795,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP162144.jpg,974,9
-2297,437505,Painting,Admiral Sir Chaloner Ogle (1726–1816),1754,1802,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169401.jpg,974,9
 2298,437503,Painting,"Mrs. George Horsley (Charlotte Mary Talbot, died 1828)",1783,1807,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP162149.jpg,975,9
 2299,437506,Painting,Bandits on a Rocky Coast,1655,1660,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-16344-001.jpg,976,9
 2300,437507,Painting,The Dream of Aeneas,1660,1665,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP160249.jpg,976,9
@@ -2168,7 +2097,6 @@
 2313,437520,Painting,Sunset near Arbonne,1860,1865,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT229696.jpg,980,9
 2314,438816,Painting,The Forest in Winter at Sunset,1846,1867,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP247630.jpg,980,9
 2315,437523,Painting,Atalanta and Meleager,1611,1621,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP261342.jpg,981,9
-2316,437525,Painting,The Feast of Acheloüs,1610,1620,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1581.jpg,981,9
 2317,437526,Painting,A Forest at Dawn with a Deer Hunt,1630,1640,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4532.jpg,981,9
 2318,437527,Painting,The Glorification of the Eucharist,1630,1632,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1162.jpg,981,9
 2319,437528,Painting,The Holy Family with Saints Francis and Anne and the Infant Saint John the Baptist,1630,1636,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17640-001.jpg,981,9
@@ -2197,7 +2125,6 @@
 2342,437589,Painting,Ferry near Gorinchem,1646,1646,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP146477.jpg,984,9
 2343,437590,Painting,View of the Town of Alkmaar,1620,1670,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145944.jpg,984,9
 2344,438380,Painting,Fishing Boats on a River,1660,1663,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP120419.jpg,984,9
-2345,437591,Painting,Rustic Interior,1632,1661,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep71.13.bw.R.jpg,985,9
 2346,437592,Painting,The Yard of the Inn at Emmaus,1632,1661,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep71.12.bw.R.jpg,985,9
 2347,437593,Painting,Marcantonio Pasqualini (1614–1691) Crowned by Apollo,1641,1641,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1450.jpg,986,9
 2348,437598,Painting,Portrait of a Man,1530,1563,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT200205.jpg,987,9
@@ -2225,7 +2152,6 @@
 2370,437654,Painting,Circus Sideshow (Parade de cirque),1887,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP375450_cropped.jpg,1006,9
 2371,437655,Painting,The Forest at Pontaubert,1881,1881,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2165.jpg,1006,9
 2372,437656,Painting,The Gardener,1882,1883,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1499.jpg,1006,9
-2373,437657,Painting,Landscape at Saint-Ouen,1878,1879,"Oil on wood, mounted on wood",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT9036.jpg,1006,9
 2374,437658,Painting,"Study for ""A Sunday on La Grande Jatte""",1884,1884,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP259921.jpg,1006,9
 2375,437659,Painting,View of the Seine,1882,1883,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT211328.jpg,1006,9
 2376,438015,Painting,"Gray Weather, Grande Jatte",1886,1888,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1945.jpg,1006,9
@@ -2310,7 +2236,6 @@
 2455,437839,Painting,Émilie,1897,1899,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep1974.356.35.R.jpg,1045,9
 2456,438016,Painting,The Streetwalker,1890,1891,Oil on cardboard,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10262.jpg,1045,9
 2457,438018,Painting,Woman before a Mirror,1897,1897,Oil on cardboard,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1923.jpg,1045,9
-2458,437841,Painting,Saint Margaret of Cortona,1753,1763,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT11449.jpg,1047,9
 2459,437842,Painting,Teasing a Sleeping Girl,1755,1765,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep1976.100.19.jpg,1047,9
 2460,437843,Painting,Portrait of a Man,1742,1770,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep29.100.179.bw.R.jpg,1047,9
 2461,437844,Painting,Comedy,1731,1741,"Oil on canvas, enlarged",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP356152.jpg,1048,9
@@ -2363,7 +2288,6 @@
 2508,437892,Painting,Madonna and Child,1465,1475,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT229155.jpg,1070,9
 2509,437893,Painting,Portrait of a Man,1645,1645,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143176.jpg,1071,9
 2510,437894,Painting,Eugène Joseph Stanislas Foullon d'Écotier (1753–1821),1785,1785,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-13041-001.jpg,1072,9
-2511,437895,Painting,The Reprimand,1874,1874,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP1436.jpg,1073,9
 2512,437896,Painting,The Missionary's Adventures,1878,1888,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP1435.jpg,1073,9
 2513,437897,Painting,Abraham's Parting from the Family of Lot,1655,1665,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143196.jpg,1074,9
 2514,437898,Painting,"Madame Grand (Noël Catherine Vorlée, 1761–1835)",1783,1783,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP320094.jpg,1075,9
@@ -2379,15 +2303,12 @@
 2524,437916,Painting,Still Life with Cheese,1853,1900,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT1989.jpg,1082,9
 2525,437917,Painting,Portrait of a Woman,1603,1651,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep89.15.37.jpg,1083,9
 2526,437918,Painting,Portrait of a Young Woman,1603,1651,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-17623-001.jpg,1083,9
-2527,437919,Painting,Two Tritons at the Feast of Acheloüs,1603,1651,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep06.1039.bw.R.jpg,1083,9
 2528,437920,Painting,A Vase with Flowers,1613,1613,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145940.jpg,1084,9
 2529,437921,Painting,Portrait of a Man,1643,1643,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143188.jpg,1085,9
-2530,437922,Painting,The Pigeon House,1650,1681,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143194.jpg,1086,9
 2531,437923,Painting,"A Day in October, near Waxholm, Sweden",1873,1873,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep87.15.99.bw.R.jpg,1087,9
 2532,437925,Painting,The French Comedians,1715,1725,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP120381.jpg,1088,9
 2533,437926,Painting,Mezzetin,1718,1720,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg,1088,9
 2534,437927,Painting,The Cascade,1704,1721,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-1418-001.jpg,1088,9
-2535,437928,Painting,The Country Dance,1704,1721,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP-1417-001.jpg,1088,9
 2536,437935,Painting,"An Old Bridge at Hendon, Middlesex",1820,1833,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169650.jpg,1089,9
 2537,437936,Painting,Ariadne,1894,1894,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169627.jpg,1090,9
 2538,437937,Painting,"Gamepiece with a Dead Heron (""Falconer's Bag"")",1695,1695,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP145930.jpg,1091,9
@@ -2395,7 +2316,6 @@
 2540,437941,Painting,Lake Nemi and Genzano from the Terrace of the Capuchin Monastery,1756,1757,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169563.jpg,1093,9
 2541,437942,Painting,"The Empress Eugénie (Eugénie de Montijo, 1826–1920, Condesa de Teba)",1854,1854,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT10159.jpg,1094,9
 2542,437943,Painting,"Countess Alexander Nikolaevitch Lamsdorff (Maria Ivanovna Beck, 1835–1866)",1859,1859,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2553.jpg,1094,9
-2543,437944,Painting,Florinda,1853,1853,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP159188.jpg,1094,9
 2544,437945,Painting,Portrait of a Woman,1682,1687,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169636.jpg,1095,9
 2545,437953,Painting,A Man and a Woman on Horseback,1653,1654,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP143205.jpg,1096,9
 2546,437954,Painting,Portrait of a Woman,1765,1775,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP169653.jpg,1097,9
@@ -2412,7 +2332,6 @@
 2557,438541,Painting,"Scene from the Gallic Wars: The Gaul Littavicus, Betraying the Roman Cause, Flees to Gergovie to Support Vercingétorix",1838,1840,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/EP1437.jpg,1104,9
 2558,438590,Painting,"Comtesse de La Tour-Maubourg (Marie-Louise-Charlotte-Gabrielle Thomas de Pange, 1816–1850)",1841,1841,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT2564.jpg,1104,9
 2559,437975,Painting,Sunset after a Storm on the Coast of Sicily,1853,1853,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT12075.jpg,1105,9
-2560,437977,Painting,The Last Communion of Saint Mary of Egypt,1680,1680,Oil on copper,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT3970.jpg,1106,9
 2561,437978,Painting,Christ Presented to the People (Ecce Homo),1497,1549,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DT4034.jpg,1107,9
 2562,437979,Painting,Ship by Moonlight,1837,1900,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ep/original/ep1975.280.2.bw.R.jpg,1108,9
 2563,437983,Painting,A Roman Landscape with Figures,1630,1639,Oil on copper,Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP293064.jpg,1109,9
@@ -2449,7 +2368,6 @@
 2594,438644,Painting,"View on the Quirinal Hill, Rome",1800,1800,"Oil on paper, laid down on canvas",Paintings,https://images.metmuseum.org/CRDImages/ep/original/DP150997.jpg,1139,9
 2595,453683,Painting,"""Jonah and the Whale"", Folio from a Jami al-Tavarikh (Compendium of Chronicles)",1375,1425,"Ink, opaque watercolor, gold, and silver on paper",Codices,https://images.metmuseum.org/CRDImages/is/original/DP247599.jpg,2,10
 2597,457781,Painting,Lady in Elizabethan Costume,1675,1699,"Opaque watercolor, gold, and silver on paper",Codices,https://images.metmuseum.org/CRDImages/is/original/DP273296.jpg,2,10
-2599,457788,Painting,Cactus Plant in Flower,1775,1825,Opaque watercolor on paper,Paintings,https://images.metmuseum.org/CRDImages/is/original/TR 112 1- 3 2012image02.jpg,2,10
 2601,469892,Painting,The Bishop of Assisi Giving a Palm to Saint Clare,1360,1360,Tempera and gold on oak panel,Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DP102843.jpg,2,12
 2603,471223,Painting,Saint Anne with the Virgin and Child,1473,1483,Oil and gold on wood (pine?),Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/CDS170574.JPG,2,12
 2605,470328,Painting,The Intercession of Christ and the Virgin,1402,1402,Tempera on canvas,Paintings-Canvas,https://images.metmuseum.org/CRDImages/cl/original/DP359505.jpg,787,12
@@ -2464,7 +2382,6 @@
 2614,470920,Painting,Panel with The Crucifixion from Retable,1400,1499,"Tempera on wood, gold ground",Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/cdi25-120-928.jpg,1360,12
 2615,470921,Painting,Panel with the Angel Appearing to Zacharias (from a Retable depicting Saint John the Baptist and scenes from his life),1464,1507,"Tempera on wood, gold ground",Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DP212506.jpg,1360,12
 2616,471730,Painting,Saint Michael,1450,1500,Tempera and oil on wood,Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DP316433.jpg,1361,12
-2617,471903,Painting,Scenes from the Life of Saint Augustine of Hippo,1490,1490,"Oil, gold, and silver on wood",Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DT200613.jpg,1362,12
 2618,471904,Painting,The Crucifixion,1330,1335,"Tempera on wood, gold ground",Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DT200609.jpg,1363,12
 2619,471905,Painting,The Lamentation,1330,1335,"Tempera on wood, gold ground",Paintings-Panels,https://images.metmuseum.org/CRDImages/cl/original/DT200610.jpg,1363,12
 2620,472301,Painting,Man of Sorrows,1370,1370,Fresco transferred to canvas,Paintings-Canvas,https://images.metmuseum.org/CRDImages/cl/original/DP102888.jpg,1364,12
@@ -2472,14 +2389,11 @@
 2623,473161,Painting,Wall Painting of a Male Saint,1100,1200,Fresco,Paintings-Fresco,https://images.metmuseum.org/CRDImages/md/original/sf2000-525-2s1.jpg,2,13
 2625,637714,Painting,"Exodus Painting, five elements from a painted hanging depicting the Crossing of the Red Sea",100,350,Paint and indigo-dyed linen,Paintings,https://images.metmuseum.org/CRDImages/md/original/DP362233.jpg,2,13
 2627,485551,Painting,Self-Portrait,1905,1905,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/DT6414.jpg,1778,4
-2628,485555,Painting,The Street Pavers,1914,1914,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/DT6415.jpg,1778,4
 2629,488126,Painting,"""One Third of a Nation""",1939,1939,Oil and tempera on wood,Paintings,https://images.metmuseum.org/CRDImages/ma/original/DT2949.jpg,1832,4
 2630,488107,Painting,National Defense,1900,1943,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/sf43.46.18.jpg,1969,4
 2631,488108,Painting,The Harbor,1943,1943,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/ma/original/DT220060.jpg,1970,4
 2632,488125,Painting,Basin Street,1938,1938,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/SF43.47.1.jpg,1971,4
 2633,488135,Painting,Horse and Buggy,1909,1943,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/sf43.47.2.jpg,1972,4
-2634,488146,Painting,Docks on Sunday,1941,1941,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/43.47.6 - color.jpg,1973,4
-2635,488147,Painting,Still Life,1941,1941,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/ma/original/43.47.7 - color.jpg,1974,4
 2636,459023,Painting,Madonna and Child,1467,1473,"Tempera, oil, and gold on wood",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3055.jpg,462,11
 2637,459083,Painting,Burgomaster Jan van Duren (1613–1687),1663,1670,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3099.jpg,493,11
 2638,459084,Painting,Margaretha van Haexbergen (1614–1676),1663,1670,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP146504.jpg,493,11
@@ -2491,7 +2405,6 @@
 2644,459077,Painting,Venus with Cupid the Honey Thief,1575,1625,Oil on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP159772.jpg,569,11
 2646,459078,Painting,Nymph of the Spring,1540,1555,Oil on beech panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP159773.jpg,569,11
 2648,459026,Painting,An Apostle,1468,1476,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3059.jpg,572,11
-2649,458999,Painting,Madonna and Child Enthroned,1333,1341,"Tempera on wood, transferred to canvas and laid down on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP318249.jpg,577,11
 2650,459096,Painting,Landscape with Ducks,1872,1872,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/0165-1.jpg,582,11
 2651,459060,Painting,Virgin and Child,1460,1523,Oil on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3080.jpg,584,11
 2652,459098,Painting,View of Saint-Valéry-sur-Somme,1896,1898,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3113.jpg,589,11
@@ -2503,7 +2416,6 @@
 2658,458970,Painting,Saint Ambrose,1465,1470,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3022.jpg,672,11
 2659,458971,Painting,The Creation of the World and the Expulsion from Paradise,1445,1445,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT707.jpg,672,11
 2660,458972,Painting,Madonna and Child with Saints Jerome and Agnes,1462,1468,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3023.jpg,672,11
-2661,458973,Painting,Saint Catherine of Siena Beseeching Christ to Resuscitate Her Mother,1443,1468,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP366038.jpg,672,11
 2662,458974,Painting,Saint Catherine of Siena Receiving the Stigmata,1443,1468,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP366040.jpg,672,11
 2663,458975,Painting,The Exultation of Saint Nicholas of Tolentino,1447,1453,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3026.jpg,672,11
 2664,458976,Painting,Saint John the Evangelist Raises Drusiana,1457,1463,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP366042.jpg,672,11
@@ -2531,7 +2443,6 @@
 2689,459011,Painting,Male Saint,1444,1472,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/LC-1975_1_070a-001.jpg,782,11
 2690,459012,Painting,Saint Bernard of Clairvaux,1444,1472,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP319197.jpg,782,11
 2691,459007,Painting,The Nativity,1403,1413,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT709.jpg,787,11
-2692,459008,Painting,The Crucified Christ between the Virgin and Saint John the Evangelist,1403,1409,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3047.jpg,787,11
 2693,459125,Painting,The Lamentation,1547,1553,Oil on copper alloy,Paintings,https://images.metmuseum.org/CRDImages/rl/original/264391_1975.1.1411.jpg,820,11
 2695,459002,Painting,The Vision of Saint Catherine of Alexandria,1350,1400,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3043.jpg,823,11
 2696,459056,Painting,Virgin and Child with Saint Anne Presenting Anna van Nieuwenhove,1479,1482,Oil on panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3078.jpg,828,11
@@ -2592,7 +2503,6 @@
 2754,459003,Painting,Saint Philip,1384,1385,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3044.jpg,1268,11
 2755,459004,Painting,"A Saint, Possibly James the Greater",1384,1385,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3045.jpg,1268,11
 2756,459135,Painting,The Conversion of Saint Paul,1388,1395,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP318243.jpg,1268,11
-2757,459005,Painting,The Crucifixion,1360,1370,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3046.jpg,1269,11
 2758,459006,Painting,Six Angels,1360,1370,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/LC-1975_1_065a-001.jpg,1270,11
 2759,459009,Painting,Saints John the Baptist and Matthew,1428,1438,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3048.jpg,1271,11
 2760,459013,Painting,The Archangel Raphael and Tobias,1460,1467,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP318247.jpg,1272,11
@@ -2616,7 +2526,6 @@
 2778,459042,Painting,Santa Francesca Romana Clothed by the Virgin,1440,1450,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3070.jpg,1284,11
 2779,459043,Painting,Santa Francesca Romana Holding the Christ Child,1440,1450,"Tempera on wood, gold ground, inscriptions on parchment laid down on wood",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3071.jpg,1284,11
 2780,459044,Painting,Saints John the Evangelist and Mary Magdalene,1330,1340,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3072.jpg,1285,11
-2781,459133,Painting,The Adoration of the Magi,1337,1346,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3005.jpg,1285,11
 2782,459045,Painting,The Feast of Herod and the Beheading of the Baptist,1325,1335,"Tempera on wood, gold ground, and silver",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3073.jpg,1286,11
 2783,459046,Painting,Saints Bartholomew and Simon,1250,1275,Tempera and gold on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3074.jpg,1287,11
 2784,459047,Painting,The Nativity,1345,1355,"Tempera on wood, gold ground",Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP-17014-001.jpg,1288,11
@@ -2627,7 +2536,6 @@
 2789,459067,Painting,Two Musicians,1600,1700,Oil on canvas,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP147793.jpg,1295,11
 2790,459070,Painting,The Lamentation of Christ,1463,1470,Oil and tempera (?) on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT1460.jpg,1296,11
 2791,459071,Painting,Portrait of a Woman,1472,1483,Oil on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/SLP0129.jpg,1297,11
-2792,459072,Painting,Margaret of Austria,1487,1493,Oil on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT713.jpg,1298,11
 2793,459073,Painting,Virgin and Child with a Dragonfly,1495,1505,Oil and tempera (?) on paper laid down on oak panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3093.jpg,1299,11
 2794,459074,Painting,Portrait of a Man with His Hand on His Chest,1542,1548,Oil on wood,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DT3094.jpg,1300,11
 2795,459075,Painting,Virgin and Child with a Donor Presented by Saint Jerome,1448,1453,Oil and gold on poplar panel,Paintings,https://images.metmuseum.org/CRDImages/rl/original/DP164853.jpg,1301,11

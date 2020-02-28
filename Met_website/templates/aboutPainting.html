@@ -79,7 +79,7 @@
 
         </div>
         <div class="row my-4">
-            <img src="img/met_front.jpg" alt="" class="img-fluid">
+            <div id="art-loc"></div>
         </div>
     </div>
 
@@ -129,27 +129,70 @@
         }
 
         var dept_id = painting_info.Dept_id
-        
-        switch(dept_id){
-            case 0: dept_name = "American Decorative Arts"
-            case 1: dept_name = "American Paintings & Sculpture"
-            case 2: dept_name = "Arms & Armor"
-            case 3: dept_name = "Asian Art"
-            case 4: dept_name = "Modern & Contemporary Art"
-            case 5: dept_name = "European Sculpture & Decorative Arts"
-            case 6: dept_name = "Photographs"
-            case 7: dept_name = "Arts of Africa, Oceania and the Americas"
-            case 8: dept_name = "Drawings & Prints"
-            case 9: dept_name = "European Paintings"
-            case 10: dept_name = "Islamic Arts"
-            case 11: dept_name = "Robert Lehman Collection"
-            case 12: dept_name = "The Cloisters"
-            case 13: dept_name = "Medieval Art"
-            case 14: dept_name = "Musical Instruments"
-            }
 
-        d3.select(".designation-text").append("h5").text(painting_info.Title + " is located in the "+ dept_name+" department.")
+        switch (dept_id) {
+            case 0:
+                dept_name = "American Decorative Arts";
+                dept_url = "../static/img/Met_art_locations/American_Paintings.png"
+                break;
+            case 1:
+                dept_name = "American Paintings & Sculpture";
+                dept_url = "../static/img/Met_art_locations/American_Painting_Sculpture.png"
+                break;
+            case 2:
+                dept_name = "Arms & Armor";
+                dept_url = "../static/img/Met_art_locations/Arms_Armor.png"
+                break;
+            case 3:
+                dept_name = "Asian Art";
+                dept_url = "../static/img/Met_art_locations/Asian_art.png"
+                break;
+            case 4:
+                dept_name = "Modern & Contemporary Art";
+                dept_url = "../static/img/Met_art_locations/Modern_Contemporary_art.png"
+                break;
+            case 5:
+                dept_name = "European Sculpture & Decorative Arts";
+                dept_url = "../static/img/Met_art_locations/European_sculpture.png"
+                break;
+            case 6:
+                dept_name = "Photographs";
+                dept_url = "../static/img/Met_art_locations/Photographs.png"
+                break;
+            case 7:
+                dept_name = "Arts of Africa, Oceania and the Americas";
+                dept_url = "../static/img/Met_art_locations/Art_Africa_Oceania.png"
+                break;
+            case 8:
+                dept_name = "Drawings & Prints";
+                dept_url = "../static/img/Met_art_locations/Drawing_Prints.png"
+                break;
+            case 9:
+                dept_name = "European Paintings";
+                dept_url = "../static/img/Met_art_locations/European_paintings.png"
+                break;
+            case 10:
+                dept_name = "Islamic Arts";
+                dept_url = "../static/img/Met_art_locations/Islamic_Arts.png"
+                break;
+            case 11:
+                dept_name = "Robert Lehman Collection";
+                dept_url = "../static/img/Met_art_locations/Robert_Lehman.png"
+                break;
+            case 12:
+                dept_name = "The Cloisters";
+                dept_url = "../static/img/Met_art_locations/Met_floor2.png"
+                break;
+            case 13:
+                dept_name = "Medieval Art";
+                dept_url = "../static/img/Met_art_locations/Medieval_Art.png"
+                break;
+            case 14: dept_name = "Musical Instruments";
+            dept_url = "../static/img/Met_art_locations/Musical_Instruments.png"
+        };
 
+        d3.select("#art-loc").append("img").attr("src", dept_url).attr("class", "img-fluid");
+        d3.select(".designation-text").append("h5").text(painting_info.Title + " is located in the "+ dept_name+" department.");
 
     </script>
     

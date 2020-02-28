@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href= "{{ url_for('static',filename='css/style.css') }}">
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <title>Met Explorer</title>
 
 </head>
@@ -48,63 +49,76 @@
     <!-- INFO SECTION -->
    
         <div class="container">
-            <div class="row my-5">
-                <div class="col-md-4 total-colors"></div>
-                <div class="col-md-8 align-self-center">
-                    <h3 class="mb-5">What are the most popular colors?</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat aliquid iure necessitatibus
-                        nostrum deserunt totam, quae cum molestiae. Iure rerum dolores perspiciatis sequi beatae aperiam
-                        excepturi tempora delectus illo fugiat, voluptatibus accusamus nesciunt eos tempore dolorem.
-                        Nobis doloremque asperiores velit vel sint, distinctio adipisci, similique quam, consectetur
-                        ipsa porro minus?</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="color-pie" style="display: flex; justify-content: center;"></div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <h3 class="mb-5">What colors are in the Met?</h3>
+                    <p>Darker colors dominate color palette, which is unsurprising given the favorability of dark backgrounds for portraiture and the dramatic contrast of Chiaroscuro styles. 
+                       Greys are also very common, making up a total of 64% of all color clusters as a super group; many muted colors across the spectrum align to more neutral color groups, especially as colors get blended and muddled in the painting process. 
+                       Actual hues are dominated by stormy blues and rich greens from landscapes, and warm tones are skewed towards peachy skin tones and ruddy reds. 
+                    <br>
+                    <br>
+                        The breadth of grey tones becomes more apparent when looking at a sampling of individual hex codes (below), as the nuance of muted colors becomes more apparent. 
+                    </p>
                 </div>
             </div>
-            <div class="row my-5">
-                <div class="col-md-6 align-self-center">
-                    <h3 class="mb-5">And popular mediums?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi repudiandae
-                        voluptatum, sed commodi quod at ut praesentium explicabo quisquam rerum beatae, aspernatur vero?
-                        Asperiores dolorum voluptatum consequatur perspiciatis iusto voluptates possimus nisi laborum
-                        quidem animi, quis rerum eos. Ea, officiis dignissimos non nisi cum quod eligendi quibusdam
-                        laudantium delectus.</p>
+            <div class= "row hex-container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="mb-5">And the most common mediums?</h3>
+                    <p>Majority of works are in an oil or tempura medium, on canvas or wood. Tempura mediums are indicative of older collection (Medieval Art).
+                        There are some more experimental works on non-traditional surfaces, such as copper and glass, although very few stray from mediums. 
+                    </p>
                 </div>
-                <div class="col-md-6 pb-5">
-                    <div id="mediums"></div>
+                <div class="col-md-7">
+                    <div id="mediums" class="justify-content-center"></div>
                 </div>
             </div>
         </div>
+
         <hr>
-        <div class="container my-5">
-            <div class="row my-5">
-                <h4 class="mb-1 py-5">Which department will get you the most bang for your buck?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quis rem aut cumque, et dignissimos
-                    est fugiat tempore blanditiis eaque, necessitatibus beatae, ducimus praesentium sunt nihil provident
-                    iure hic repellendus. Officia facilis porro corrupti illo voluptatibus sunt quae provident error,
-                    nostrum corporis ipsam! Tenetur, illo officiis enim, dolorum esse fugiat perferendis officia dicta
-                    iure inventore qui, neque provident culpa similique!</p>
+
+        <div class="container">
+            <div class="row">
+                <h4 class="py-5">Which department will get you the most bang for your buck?</h4>
+                <p>If you're looking to see the most paintings, head first to the European wing; this collection accounts for over half of the paintings (at least in this dataset). 
+                    Admittedly, our database is influenced by public domain requirements, which may limit available sample of more contemporary American paintings. 
+                    Middle-eastern and asiatic artwork is also largely tied to decorative arts over strict paintings. OVerall, while the Met has a fairly rich collection, 
+                    it's paintings definitetly more representative of Western culture and influences. The Robert Lehman collection contributes a surprisingly large amount of paintings-- 
+                    a testament to it being one of the largest private collections ever assembled in the United States (<a href="https://en.wikipedia.org/wiki/Robert_Lehman">at least according to Wikipedia</a>).
+                </p>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div id="departments"></div>
+                <div class="col-md-12">
+                    <div id="departments" style="display: flex; justify-content: center;"></div>
                 </div>
                 
             </div>
         </div>
         <hr>
         <div class="container">
-            <div class="row my-5">
+            <div class="row">
                 <div class="col-md-6 align-self-center">
-                    <h3 class="mb-4">Meet the most prolific artists
+                    <h3 class="mb-4">Meet the most prolific artists<br>
                         (or at least, the most collected)
                     </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi repudiandae
-                        voluptatum, sed commodi quod at ut praesentium explicabo quisquam rerum beatae, aspernatur vero?
-                        Asperiores dolorum voluptatum consequatur perspiciatis iusto voluptates possimus nisi laborum
-                        quidem animi, quis rerum eos. Ea, officiis dignissimos non nisi cum quod eligendi quibusdam
-                        laudantium delectus.</p>
+                    <p>In strict terms, the "anonymous artist" has the greatest collection of paintings. Top individual artists represent masters over their various periods. 
+                        Majority are focused or known for portraiture, so they might've been especially sought out and commissioned to produce works. The exception is Corot,
+                        who was considered a leading figure in terms of landscapes. <br><br>
+                    Want to learn more? Try typing these artists' names into the search on the homepage and compare their painting palettes! How adventurous were these prolific artists in their color choices?
+                    Are their palettes unique from each other? We've give you the highlights, so go explore! </p>
                 </div>
-                <div class="col-md-6 pb-5">
-                    <table id="top-artists"></table>
+                <div class="col-md-6 pb-5 justify-content-center">
+                    <table class="top-artists" style = "margin: 50px 0px 0px 100px;">
+                        <tr>
+                            <th>Artist Name</th>
+                            <th>Number of Paintings </th>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
@@ -124,33 +138,112 @@
     {% block javascript %}
 
     <script>
-        // load the objects like you would with a normal jinja template i.e. {{ object }}, but add | tojson
-        // pass it into the parse function. Example: results = JSON.parse({{ results | tojson }})
-        var met_summary = JSON.parse({{ met_summary | tojson }}); 
-        console.log(met_summary)
+        // load & display color groups
+        var met_colors_full = JSON.parse({{ group_colors | tojson }}); 
+        //console.log(met_colors_full);
         
-        var 
+        //Pie Chart
+        var color_names = met_colors_full.map(function(color){return color.Color_name});
+        console.log(color_names)
+        var color_sizes = met_colors_full.map(function(color){return color.Size});
+        var color_colors = colors= ['rgb(255,255,255)','rgb(255,255,255)','rgb(255,255,255)', 'rgb(0,0,0)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(222,184,135)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(184,134,11)', 'rgb(255,255,255)', 'rgb(169,169,169)', 'rgb(189, 183,107)', 'rgb(85,107,47)', 'rgb(255,255,255)','rgb(255,255,255)','rgb(143,188,143)','rgb(255,255,255)','rgb(47, 79, 79)', 'rgb(105,105,105)','rgb(255,255,255)','rgb(255,255,255)','rgb(220,220,220)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(128,128,128)','rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(230,230,250)', 'rgb(255,255,255)', 'rgb(211,211,211)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(119, 136, 153)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(128, 0,0)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(205,133,63)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(188, 143, 143)', 'rgb(139,69,19)', 'rgb(244,164,96)', 'rgb(255,255,255)', 'rgb(160,82,45)','rgb(192,192,192)','rgb(255,255,255)', 'rgb(112,128,144)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(210, 180, 140)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(245, 222,179)', 'rgb(255,255,255)', 'rgb(255,255,255)', 'rgb(255,255,255)']        
+        var color_trace = [{
+            values: color_sizes,
+            labels: color_names, 
+            type: 'pie', 
+            marker: {colors: color_colors}, 
+            textinfo: 'none'
+        }];
+
+        var layout = {
+        showlegend: false,
+        height: 'auto',
+        width: 'auto',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        };
+
+        Plotly.newPlot("color-pie", color_trace, layout, {displayModeBar: false});
+
+        //Individual hex colors grid
+        var hex_colors = JSON.parse({{ hex_colors | tojson}});
+        var hex_list = hex_colors[0].Hex;
+        //console.log(hex_list);
         
+        var hex_palette = d3.select(".hex-container");
+
+        hex_list.forEach(createMini);
+
+        function createMini(hex){
+            hex_palette.append("div").attr("style", "height: 10px; width: 10px; background-color:"+hex);
+        };
+
+        //Mediums
+        var top_mediums = JSON.parse({{ top_mediums | tojson }});
+        var mediums = top_mediums.map(function(painting) {return painting.Medium});
+        var mediums_counts = top_mediums.map(function(painting){return painting.Count}) 
         
+        var mediums_trace = [{
+            y: mediums,
+            x: mediums_counts,
+            type: 'bar',
+            marker: {
+                color: 'rgb(235,0,41)'
+            },
+            orientation: 'h',
+            transforms: [{
+                type: 'sort',
+                target: 'x',
+                order: 'ascending'
+            }]
+        }];
+
+        var layout_bar = {
+        showlegend: false,
+        height: 'auto',
+        width: 'auto',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        margin: {
+            l: 250,
+            r: 200,
+            b: 100,
+            t: 100,
+            pad: 0
+        }
+        };
+
+        Plotly.newPlot("mediums", mediums_trace, layout_bar, {displayModeBar: false});
+
+        //Departments
+        var department_summary = JSON.parse({{ department_summary | tojson }});
+        var depts = department_summary.map(function(name) {return name.Department});
+        var dept_counts = department_summary.map(function(dept){return dept.Count});
+        var dept_colors = ['rgb(235,59,59)', 'rgb(211,19,19)', 'rgb(255,161,161)', 'rgb(255,225,225)', 'rgb(255,225,225)', 'rgb(255,192,192)', 'rgb(255,225,225)', 'rgb(182,14,14)', 'rgb(255,225,225)', 'rgb(234,22,22)', 'rgb(255,117,117)', 'rgb(255,225,225)', 'rgb(255,225,225)']
+
+        var dept_trace = [{
+            values: dept_counts,
+            labels: depts, 
+            type: 'pie', 
+            marker: {colors: dept_colors}, 
+            textinfo: 'none'
+        }];
         
+        var d_layout = {
+        height: 'auto',
+        width: 'auto',
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        };
+
+        Plotly.newPlot("departments", dept_trace, d_layout, {displayModeBar: false});
+
+        //Artists
+        var top_artists = JSON.parse({{ top_artists | tojson }});
+        console.log(top_artists);
         
-        
-        switch(dept_id){
-            case 0: dept_name = "American Decorative Arts"
-            case 1: dept_name = "American Paintings & Sculpture"
-            case 2: dept_name = "Arms & Armor"
-            case 3: dept_name = "Asian Art"
-            case 4: dept_name = "Modern & Contemporary Art"
-            case 5: dept_name = "European Sculpture & Decorative Arts"
-            case 6: dept_name = "Photographs"
-            case 7: dept_name = "Arts of Africa, Oceania and the Americas"
-            case 8: dept_name = "Drawings & Prints"
-            case 9: dept_name = "European Paintings"
-            case 10: dept_name = "Islamic Arts"
-            case 11: dept_name = "Robert Lehman Collection"
-            case 12: dept_name = "The Cloisters"
-            case 13: dept_name = "Medieval Art"
-            case 14: dept_name = "Musical Instruments"}
+        d3.select(".top-artists").selectAll("div").data(top_artists).enter().append("tr").attr("style", "text-align: center; border: solid 1px black;").html(function(artist){ return "<td>" + artist.Full_name + "</td><td>" + artist.Count + "</td>"})
+
 
 
 
